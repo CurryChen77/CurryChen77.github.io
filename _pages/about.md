@@ -27,10 +27,12 @@ My current research interests primarily revolve around learning-based autonomous
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><img src='images/IGT.png' alt="sym" width="100%"></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/IGT.gif' alt="sym" width="80%"></div>
 <div class='paper-box-text' markdown="1">
 
 **IGT: Illumination-guided RGB-T object detection with transformers**
+
+**Knowledge-Based Systems (2023) SCI (Q1) IF=8.139**
 
 **Keyu Chen**, Jinqiang Liu, Han Zhang
 
@@ -42,12 +44,13 @@ My current research interests primarily revolve around learning-based autonomous
 </div>
 
 # 🎖 Honors and Awards
-- *2023.06* Outstanding Graduate (Top 1%). 
-- *2021.12* National Scholarship (Top 1%). 
+- *2023.06* Outstanding Graduate (Top 1%), NUAA.
+- *2023.06* Outstanding Bachelor Thesis Award (Top 5%), NUAA.
+- *2021.12* National Scholarship (Top 1%), NUAA. 
 
 # 📖 Educations
 - *2019.06 - present*, PhD candidate, Mechanical engineering, Tsinghua University, Beijing, China. 
-- *2019.09 - 2023.06*, Bachelor, Vehicle Engineering, Nanjing University of Aeronautics and Astronautics, Nanjing, China. 
+- *2019.09 - 2023.06*, Bachelor, Vehicle Engineering, NUAA (Nanjing University of Aeronautics and Astronautics), Nanjing, China. 
 
 # 💻 Internships
 - *2023.07 - 2023.08*, [Tsari](https://www.tsari.tsinghua.edu.cn/), Suzhou, China.
