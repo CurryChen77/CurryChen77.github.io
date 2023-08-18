@@ -17,13 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a first-year doctoral student from the School of Vehicle and Mobility at Tsinghua University, under the guidance of Prof. Sifa Zheng. Prior to this, I graduated from NUAA (Nanjing University of Aeronautics and Astronautics) with a bachelor’s degree. 
+I am a first-year doctoral student from the School of Vehicle and Mobility at Tsinghua University, under the guidance of [Prof. Sifa Zheng](http://www.svm.tsinghua.edu.cn/essay/80/1835.html). Prior to this, I graduated from NUAA (Nanjing University of Aeronautics and Astronautics) with a bachelor’s degree. 
 
 My current research interests primarily revolve around learning-based autonomous driving planning and adversarial evaluation. Previously, I have also been involved in projects related to multi-modality perception. My ultimate goal is to leverage AI to empower autonomous driving, enabling the creation of safer and more reliable self-driving systems
 
 
 # 🔥 News
-- *2023.03*: &nbsp;🎉🎉 My first academic paper has been officially accepted by the [Knowledge-Based Systems](https://www.sciencedirect.com/journal/knowledge-based-systems) marking the official start of my academic career! 
+- *2023.03*: &nbsp;🎉🎉 My first academic paper has been officially accepted by the [Knowledge-Based Systems](https://www.sciencedirect.com/journal/knowledge-based-systems), marking the official start of my academic career! 
 
 # 📝 Publications 
 
@@ -49,7 +49,7 @@ My current research interests primarily revolve around learning-based autonomous
 - *2021.12* National Scholarship (Top 1%), NUAA. 
 
 # 📖 Educations
-- *2019.06 - present*, PhD candidate, Mechanical engineering, Tsinghua University, Beijing, China. 
+- *2023.09 - present*, PhD candidate, Mechanical engineering, Tsinghua University, Beijing, China. 
 - *2019.09 - 2023.06*, Bachelor, Vehicle Engineering, NUAA (Nanjing University of Aeronautics and Astronautics), Nanjing, China. 
 
 # 💻 Internships
