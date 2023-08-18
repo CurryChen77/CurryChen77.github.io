@@ -27,7 +27,7 @@ My current research interests primarily revolve around learning-based autonomous
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/IGT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/IGT.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
 **IGT: Illumination-guided RGB-T object detection with transformers**
@@ -36,9 +36,10 @@ My current research interests primarily revolve around learning-based autonomous
 
 [**Paper**](https://www.sciencedirect.com/science/article/pii/S0950705123001739?casa_token=uB0IUPawdkcAAAAA:xiqZf6isfEmqjSoG86H1J5PPAFZw0YT4QG8giHL0ADJNsXcyYcnzYd3ceq9tnZNWkTccpOXECDw) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
-- We propose using illumination intensity to guide the fusion process of multi-modality features, enabling the comprehensive utilization of cross-modality complementary information in object detection. 
-  </div>
-  </div>
+* We propose using illumination intensity to guide the fusion process of multi-modality features, enabling the comprehensive utilization of cross-modality complementary information in object detection. 
+
+</div>
+</div>
 
 # 🎖 Honors and Awards
 - *2023.06* Outstanding Graduate (Top 1%). 
