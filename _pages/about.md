@@ -21,6 +21,8 @@ redirect_from:
 
 <span style="font-size: larger;">My current research interests lie in the learning-based planning and adversarial testing for autonomous driving. Previously, my research focused on the multi-modality perception. My ultimate goal is to leverage AI to empower autonomous driving, enabling the creation of safer and more reliable self-driving systems.</span>
 
+My current google scholar <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+
 
 # 🔥 News
 - *2023.03*: &nbsp;🎉🎉 My first academic paper has been officially accepted by the [Knowledge-Based Systems](https://www.sciencedirect.com/journal/knowledge-based-systems), marking the official start of my academic career! 
@@ -32,7 +34,7 @@ redirect_from:
 
 **IGT: Illumination-guided RGB-T object detection with transformers**
 
-**Knowledge-Based Systems (2023) SCI (Q1) IF=8.139**
+**Knowledge-Based Systems (2023) SCI (Q1) IF=8.8**
 
 **Keyu Chen**, Jinqiang Liu, Han Zhang
 
