@@ -21,7 +21,7 @@ redirect_from:
 
 <span style="font-size: larger;">My current research interests lie in the learning-based planning and adversarial testing for autonomous driving. Previously, my research focused on the multi-modality perception. My ultimate goal is to leverage AI to empower autonomous driving, enabling the creation of safer and more reliable self-driving systems.</span>
 
-My current google scholar <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+My current google scholar <a href='https://scholar.google.com/citations?user=m_bC1VAAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 
 # 🔥 News
