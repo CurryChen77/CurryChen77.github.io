@@ -29,7 +29,7 @@ redirect_from:
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Knowledge-Based Systems 2023</div><img src='images/IGT.gif' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2023</div><img src='images/IGT.gif' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **IGT: Illumination-guided RGB-T object detection with transformers**
