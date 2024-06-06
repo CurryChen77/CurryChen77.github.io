@@ -27,14 +27,12 @@ redirect_from:
 # 🔥 News
 - *2023.03*: &nbsp;🎉🎉 My first academic paper has been officially accepted by the [Knowledge-Based Systems](https://www.sciencedirect.com/journal/knowledge-based-systems), marking the official start of my academic career! 
 
-# 📝 Publications 
+# 📝 Publications
 
-**Published**:
+## 🧑‍🎨 **Published**:
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2023</div><img src='images/IGT.gif' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
-
-
 **IGT: Illumination-guided RGB-T object detection with transformers**
 
 **Knowledge-Based Systems (2023) SCI (Q1) IF=8.8**
@@ -48,12 +46,11 @@ redirect_from:
 </div>
 </div>
 
-**Preprint**:
+## 📚 **Preprint**:
 
-**
-
-<div class='paper-box'><div class='paper-box-image'><img src='images/IGT.gif' alt="sym" width="80%"></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='images/FREA.gif' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
+
 
 **FREA: Feasibility-Guided Generation of Safety-Critical Scenarios with Reasonable Adversariality**
 
@@ -67,6 +64,7 @@ redirect_from:
 </div>
 
 # 🎖 Honors and Awards
+
 - *2023.06* Outstanding Graduate (Top 1%), NUAA.
 - *2023.06* Outstanding Bachelor Thesis Award (Top 5%), NUAA.
 - *2021.12* National Scholarship (Top 1%), NUAA. 
