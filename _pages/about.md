@@ -29,6 +29,8 @@ redirect_from:
 
 # 📝 Publications 
 
+**Published**:
+
 <div class='paper-box'><div class='paper-box-image'><img src='images/IGT.gif' alt="sym" width="80%"></div>
 <div class='paper-box-text' markdown="1">
 
@@ -38,9 +40,27 @@ redirect_from:
 
 **Keyu Chen**, Jinqiang Liu, Han Zhang
 
-[**Paper**](https://www.sciencedirect.com/science/article/pii/S0950705123001739?casa_token=uB0IUPawdkcAAAAA:xiqZf6isfEmqjSoG86H1J5PPAFZw0YT4QG8giHL0ADJNsXcyYcnzYd3ceq9tnZNWkTccpOXECDw) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Paper**](https://www.sciencedirect.com/science/article/pii/S0950705123001739?casa_token=uB0IUPawdkcAAAAA:xiqZf6isfEmqjSoG86H1J5PPAFZw0YT4QG8giHL0ADJNsXcyYcnzYd3ceq9tnZNWkTccpOXECDw) 
 
 * We propose using illumination intensity to guide the fusion process of multi-modality features, enabling the comprehensive utilization of cross-modality complementary information in object detection. 
+
+</div>
+</div>
+
+**Preprint**:
+
+**
+
+<div class='paper-box'><div class='paper-box-image'><img src='images/IGT.gif' alt="sym" width="80%"></div>
+<div class='paper-box-text' markdown="1">
+
+**FREA: Feasibility-Guided Generation of Safety-Critical Scenarios with Reasonable Adversariality**
+
+**Keyu Chen**, Yuheng Lei, Hao Cheng, Haoran Wu, Wenchao Sun, Sifa Zheng
+
+[**Paper**](https://arxiv.org/abs/2406.02983) 
+
+* FREA incorporates feasibility as guidance to generate adversarial yet AV-feasible, safety-critical scenarios for autonomous driving. 
 
 </div>
 </div>
