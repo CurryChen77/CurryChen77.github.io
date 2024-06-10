@@ -29,10 +29,27 @@ redirect_from:
 
 # 📝 Publications
 
+## 📚 **Preprint**:
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='images/FREA.gif' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**FREA: Feasibility-Guided Generation of Safety-Critical Scenarios with Reasonable Adversariality**
+
+**Keyu Chen**, Yuheng Lei, Hao Cheng, Haoran Wu, Wenchao Sun, Sifa Zheng
+
+[**Paper**](https://arxiv.org/abs/2406.02983) 
+
+* FREA incorporates feasibility as guidance to generate adversarial yet AV-feasible, safety-critical scenarios for autonomous driving. 
+
+</div>
+</div>
+
 ## 🧑‍🎨 **Published**:
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2023</div><img src='images/IGT.gif' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2023</div><img src='images/IGT.gif' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
+
 **IGT: Illumination-guided RGB-T object detection with transformers**
 
 **Knowledge-Based Systems (2023) SCI (Q1) IF=8.8**
@@ -46,22 +63,7 @@ redirect_from:
 </div>
 </div>
 
-## 📚 **Preprint**:
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='images/FREA.gif' alt="sym" width="80%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-
-**FREA: Feasibility-Guided Generation of Safety-Critical Scenarios with Reasonable Adversariality**
-
-**Keyu Chen**, Yuheng Lei, Hao Cheng, Haoran Wu, Wenchao Sun, Sifa Zheng
-
-[**Paper**](https://arxiv.org/abs/2406.02983) 
-
-* FREA incorporates feasibility as guidance to generate adversarial yet AV-feasible, safety-critical scenarios for autonomous driving. 
-
-</div>
-</div>
 
 # 🎖 Honors and Awards
 
