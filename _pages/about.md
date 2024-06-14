@@ -31,8 +31,9 @@ redirect_from:
 
 ## 📚 **Preprint**:
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="font-size: 18px;">arXiv 2024</div><img src='images/FREA.gif' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="font-size: 15px;">arXiv 2024</div><img src='images/FREA.gif' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
+
 
 
 
@@ -49,9 +50,10 @@ redirect_from:
 
 ## 🧑‍🎨 **Published**:
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="font-size: 18px;">KBS 2023</div><img src='images/IGT.gif' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="font-size: 15px;">KBS 2023</div><img src='images/IGT.gif' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 **IGT: Illumination-guided RGB-T object detection with transformers**
+
 
 **Knowledge-Based Systems (2023) SCI (Q1) IF=8.8**
 
@@ -66,7 +68,7 @@ redirect_from:
 
 #  🚀 Project
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="font-size: 18px;">Github 2023</div><img src='images/Highway-Adv.gif' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="font-size: 15px;">Github 2023</div><img src='images/Highway-Adv.gif' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Highway-Adversarial**
