@@ -31,8 +31,9 @@ redirect_from:
 
 ## 📚 **Preprint**:
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='images/FREA.gif' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='images/FREA.gif' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
+
 
 **FREA: Feasibility-Guided Generation of Safety-Critical Scenarios with Reasonable Adversariality**
 
@@ -62,16 +63,18 @@ redirect_from:
 </div>
 </div>
 
-# :art: Project
+#  🎨 Project
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2023</div><img src='images/Highway-Adv.gif' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Highway-Adversarial
+**Highway-Adversarial**
+
+**Keyu Chen**
 
 [**Code**](https://github.com/CurryChen77/Highway-env-adversarial) 
 
-* We propose an adversarial agent training method in Highway-Env. 
+* We propose a novel training method for adversarial agents in the Highway-Env, designed to manipulate the behaviors of critical background vehicles. This approach strategically challenges the ego vehicle by creating safety-critical scenarios. By adjusting the driving patterns of surrounding vehicles, our method aims to expose and enhance the ego vehicle's capabilities to handle potential real-world driving hazards effectively. 
 
 </div>
 </div>
