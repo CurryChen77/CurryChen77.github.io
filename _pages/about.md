@@ -70,11 +70,9 @@ redirect_from:
 
 **Highway-Adversarial**
 
-**Keyu Chen**
-
 [**Code**](https://github.com/CurryChen77/Highway-env-adversarial) 
 
-* We propose a novel training method for adversarial agents in the Highway-Env, designed to manipulate the behaviors of critical background vehicles. This approach strategically challenges the ego vehicle by creating safety-critical scenarios. By adjusting the driving patterns of surrounding vehicles, our method aims to expose and enhance the ego vehicle's capabilities to handle potential real-world driving hazards effectively. 
+* We propose a novel training method for adversarial agents in the Highway-Env, designed to manipulate the behaviors of critical background vehicles. This approach strategically challenges the ego vehicle by creating safety-critical scenarios.
 
 </div>
 </div>
