@@ -49,7 +49,6 @@ redirect_from:
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2023</div><img src='images/IGT.gif' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 **IGT: Illumination-guided RGB-T object detection with transformers**
 
 **Knowledge-Based Systems (2023) SCI (Q1) IF=8.8**
@@ -63,7 +62,19 @@ redirect_from:
 </div>
 </div>
 
+# :art: Project
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2023</div><img src='images/Highway-Adv.gif' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Highway-Adversarial
+
+[**Code**](https://github.com/CurryChen77/Highway-env-adversarial) 
+
+* We propose an adversarial agent training method in Highway-Env. 
+
+</div>
+</div>
 
 # 🎖 Honors and Awards
 
