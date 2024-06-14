@@ -31,24 +31,25 @@ redirect_from:
 
 ## 📚 **Preprint**:
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='images/FREA.gif' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="font-size: 18px;">arXiv 2024</div><img src='images/FREA.gif' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
+
 
 
 **FREA: Feasibility-Guided Generation of Safety-Critical Scenarios with Reasonable Adversariality**
 
 **Keyu Chen**, Yuheng Lei, Hao Cheng, Haoran Wu, Wenchao Sun, Sifa Zheng
 
-[**Paper**](https://arxiv.org/abs/2406.02983) 
+[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2406.02983) 
 
-* FREA incorporates feasibility as guidance to generate adversarial yet AV-feasible, safety-critical scenarios for autonomous driving. 
+*FREA incorporates feasibility as guidance to generate adversarial yet AV-feasible, safety-critical scenarios for autonomous driving.*
 
 </div>
 </div>
 
 ## 🧑‍🎨 **Published**:
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2023</div><img src='images/IGT.gif' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="font-size: 18px;">KBS 2023</div><img src='images/IGT.gif' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 **IGT: Illumination-guided RGB-T object detection with transformers**
 
@@ -56,23 +57,23 @@ redirect_from:
 
 **Keyu Chen**, Jinqiang Liu, Han Zhang
 
-[**Paper**](https://www.sciencedirect.com/science/article/pii/S0950705123001739?casa_token=uB0IUPawdkcAAAAA:xiqZf6isfEmqjSoG86H1J5PPAFZw0YT4QG8giHL0ADJNsXcyYcnzYd3ceq9tnZNWkTccpOXECDw) 
+[![Custom badge](https://img.shields.io/badge/Elsevier-Paper-b31b1b?logo=Elsevier&logoColor=white?style=flat-square)](https://www.sciencedirect.com/science/article/pii/S0950705123001739?casa_token=uB0IUPawdkcAAAAA:xiqZf6isfEmqjSoG86H1J5PPAFZw0YT4QG8giHL0ADJNsXcyYcnzYd3ceq9tnZNWkTccpOXECDw) 
 
-* We propose using illumination intensity to guide the fusion process of multi-modality features, enabling the comprehensive utilization of cross-modality complementary information in object detection. 
+*We propose using illumination intensity to guide the fusion process of multi-modality features, enabling the comprehensive utilization of cross-modality complementary information in object detection.*
 
 </div>
 </div>
 
-#  🎨 Project
+#  🚀 Project
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2023</div><img src='images/Highway-Adv.gif' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="font-size: 18px;">Github 2023</div><img src='images/Highway-Adv.gif' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Highway-Adversarial**
 
-[**Code**](https://github.com/CurryChen77/Highway-env-adversarial) 
+[![Custom badge](https://img.shields.io/badge/Github-Code-white?logo=github&color=Green?style=flat-square)](https://github.com/CurryChen77/Highway-env-adversarial)
 
-* We propose a novel training method for adversarial agents in the Highway-Env, designed to manipulate the behaviors of critical background vehicles. This approach strategically challenges the ego vehicle by creating safety-critical scenarios.
+*We propose a novel training method for adversarial agents in the Highway-Env, designed to manipulate the behaviors of critical background vehicles. This approach strategically challenges the ego vehicle by creating safety-critical scenarios.*
 
 </div>
 </div>
