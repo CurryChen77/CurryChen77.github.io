@@ -75,7 +75,7 @@ redirect_from:
 
 [![Custom badge](https://img.shields.io/badge/Github-Code-white?logo=github&color=Green?style=flat-square)](https://github.com/CurryChen77/Highway-env-adversarial)
 
-*We propose a novel training method for adversarial agents in the Highway-Env, designed to manipulate the behaviors of critical background vehicles. This approach strategically challenges the ego vehicle by creating safety-critical scenarios.*
+*We manipulate critical background vehicles in the Highway-Env to exhibit adversarial behaviors that challenge the ego vehicle, creating safety-critical scenarios.*
 
 </div>
 </div>
