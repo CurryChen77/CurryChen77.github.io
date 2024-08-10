@@ -41,7 +41,7 @@ redirect_from:
 
 **Keyu Chen**, Yuheng Lei, Hao Cheng, Haoran Wu, Wenchao Sun, Sifa Zheng
 
-[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2406.02983) 
+[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2406.02983) [![Custom badge](https://img.shields.io/badge/Github-Code-white?logo=github&color=Green?style=flat-square)](https://github.com/CurryChen77/FREA) [![Custom badge](https://img.shields.io/badge/Project-page-green?logo=document)](https://currychen77.github.io/FREA/)
 
 *FREA incorporates feasibility as guidance to generate adversarial yet AV-feasible, safety-critical scenarios for autonomous driving.*
 
