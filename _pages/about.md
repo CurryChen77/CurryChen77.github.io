@@ -41,7 +41,7 @@ redirect_from:
 
 **Keyu Chen**, Yuheng Lei, Hao Cheng, Haoran Wu, Wenchao Sun, Sifa Zheng
 
-[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2406.02983) [![Custom badge](https://img.shields.io/badge/Github-Code-white?logo=github&color=Green?style=flat-square)](https://github.com/CurryChen77/FREA) [![Custom badge](https://img.shields.io/badge/Project-page-green?logo=document)](https://currychen77.github.io/FREA/)
+[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2406.02983)  [![Custom badge](https://img.shields.io/badge/Project-page-green?logo=document)](https://currychen77.github.io/FREA/)  [![Custom badge](https://img.shields.io/badge/Github-Code-white?logo=github&color=Green?style=flat-square)](https://github.com/CurryChen77/FREA)  [![Stars](https://img.shields.io/github/stars/CurryChen77/FREA?style=social)](https://github.com/CurryChen77/FREA/stargazers)
 
 *FREA incorporates feasibility as guidance to generate adversarial yet AV-feasible, safety-critical scenarios for autonomous driving.*
 
@@ -73,7 +73,7 @@ redirect_from:
 
 **Highway-Adversarial**
 
-[![Custom badge](https://img.shields.io/badge/Github-Code-white?logo=github&color=Green?style=flat-square)](https://github.com/CurryChen77/Highway-env-adversarial)
+[![Custom badge](https://img.shields.io/badge/Github-Code-white?logo=github&color=Green?style=flat-square)](https://github.com/CurryChen77/Highway-env-adversarial)  [![Stars](https://img.shields.io/github/stars/CurryChen77/Highway-env-adversarial?style=social)](https://github.com/CurryChen77/Highway-env-adversarial/stargazers)
 
 *We manipulate critical background vehicles in the Highway-Env to exhibit adversarial behaviors that challenge the ego vehicle, creating safety-critical scenarios.*
 
