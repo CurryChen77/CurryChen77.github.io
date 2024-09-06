@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<span style="font-size: larger;">I am a first-year PhD student from the School of Vehicle and Mobility at Tsinghua University, under the guidance of [Prof. Sifa Zheng](http://www.svm.tsinghua.edu.cn/essay/80/1835.html). Prior to this, I graduated from NUAA (Nanjing University of Aeronautics and Astronautics) with a bachelor’s degree. </span>
+<span style="font-size: larger;">I am a second-year PhD student from the School of Vehicle and Mobility at Tsinghua University, under the guidance of [Prof. Sifa Zheng](http://www.svm.tsinghua.edu.cn/essay/80/1835.html). Prior to this, I graduated from NUAA (Nanjing University of Aeronautics and Astronautics) with a bachelor’s degree. </span>
 
 <span style="font-size: larger;">My current research interests lie in the learning-based planning and adversarial testing for autonomous driving. Previously, my research focused on the multi-modality perception. My ultimate goal is to leverage AI to empower autonomous driving, enabling the creation of safer and more reliable self-driving systems.</span>
 
@@ -25,14 +25,16 @@ redirect_from:
 
 
 # 🔥 News
-- *2023.03*: &nbsp;🎉🎉 My first academic paper has been officially accepted by the [Knowledge-Based Systems](https://www.sciencedirect.com/journal/knowledge-based-systems), marking the official start of my academic career! 
+- *2024.09*:  🎉🎉 Our **FREA** paper has been accepted by **CoRL 2024**.
+- *2023.03*: &nbsp;🎉🎉 My first paper **IGT** has been officially accepted by the **Knowledge-Based Systems**.
 
 # 📝 Publications
 
-## 📚 **Preprint**:
+## 🧑‍🎨 **Published**:
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="font-size: 15px;">arXiv 2024</div><img src='images/FREA.gif' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="font-size: 15px;">CoRL 2024</div><img src='images/FREA.gif' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
+
 
 
 
@@ -47,8 +49,6 @@ redirect_from:
 
 </div>
 </div>
-
-## 🧑‍🎨 **Published**:
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="font-size: 15px;">KBS 2023</div><img src='images/IGT.gif' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
