@@ -25,55 +25,50 @@ redirect_from:
 
 
 # 🔥 News
-- *2024.09*:  🎉🎉 Our **FREA** paper has been accepted by **CoRL 2024**.
-- *2023.03*: &nbsp;🎉🎉 My first paper **IGT** has been officially accepted by the **Knowledge-Based Systems**.
+- *2024.09*:  🎉🎉 Our FREA paper has been accepted by *CoRL 2024*.
+- *2023.03*: &nbsp;🎉🎉 Our IGT paper has been accepted by the *Knowledge-Based Systems 2023*.
 
 # 📝 Publications
 
-## 🧑‍🎨 **Published**:
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="font-size: 15px;">CoRL 2024</div><img src='images/FREA.gif' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/FREA.gif' alt="sym" width="90%"></div>
 <div class='paper-box-text' markdown="1">
-
-
-
-
 
 **FREA: Feasibility-Guided Generation of Safety-Critical Scenarios with Reasonable Adversariality**
 
 **Keyu Chen**, Yuheng Lei, Hao Cheng, Haoran Wu, Wenchao Sun, Sifa Zheng
 
-[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2406.02983)  [![Custom badge](https://img.shields.io/badge/Project-page-green?logo=document)](https://currychen77.github.io/FREA/)  [![Custom badge](https://img.shields.io/badge/Github-Code-white?logo=github&color=Green?style=flat-square)](https://github.com/CurryChen77/FREA)  [![Stars](https://img.shields.io/github/stars/CurryChen77/FREA?style=social)](https://github.com/CurryChen77/FREA/stargazers)
+The 8th Conference on Robot Learning **(CoRL 2024)**
+
+[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2406.02983)  [![Custom badge](https://img.shields.io/badge/Project-page-b31b1b?logo=document)](https://currychen77.github.io/FREA/)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/FREA)  [![Stars](https://img.shields.io/github/stars/CurryChen77/FREA?style=social)](https://github.com/CurryChen77/FREA/stargazers)
 
 *FREA incorporates feasibility as guidance to generate adversarial yet AV-feasible, safety-critical scenarios for autonomous driving.*
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="font-size: 15px;">KBS 2023</div><img src='images/IGT.gif' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/IGT.gif' alt="sym" width="90%"></div>
 <div class='paper-box-text' markdown="1">
 **IGT: Illumination-guided RGB-T object detection with transformers**
 
-
-**Knowledge-Based Systems (2023) SCI (Q1) IF=8.8**
-
 **Keyu Chen**, Jinqiang Liu, Han Zhang
+
+Knowledge-Based Systems **(KBS 2023)**
 
 [![Custom badge](https://img.shields.io/badge/Elsevier-Paper-b31b1b?logo=Elsevier&logoColor=white?style=flat-square)](https://www.sciencedirect.com/science/article/pii/S0950705123001739?casa_token=uB0IUPawdkcAAAAA:xiqZf6isfEmqjSoG86H1J5PPAFZw0YT4QG8giHL0ADJNsXcyYcnzYd3ceq9tnZNWkTccpOXECDw) 
 
-*We propose using illumination intensity to guide the fusion process of multi-modality features, enabling the comprehensive utilization of cross-modality complementary information in object detection.*
+*IGT uses illumination intensity to guide the fusion process of multi-modality features, enabling the comprehensive utilization of cross-modality complementary information in object detection.*
 
 </div>
 </div>
 
 #  🚀 Project
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="font-size: 15px;">Github 2023</div><img src='images/Highway-Adv.gif' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/Highway-Adv.gif' alt="sym" width="90%"></div>
 <div class='paper-box-text' markdown="1">
 
 **Highway-Adversarial**
 
-[![Custom badge](https://img.shields.io/badge/Github-Code-white?logo=github&color=Green?style=flat-square)](https://github.com/CurryChen77/Highway-env-adversarial)  [![Stars](https://img.shields.io/github/stars/CurryChen77/Highway-env-adversarial?style=social)](https://github.com/CurryChen77/Highway-env-adversarial/stargazers)
+[![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/Highway-env-adversarial)  [![Stars](https://img.shields.io/github/stars/CurryChen77/Highway-env-adversarial?style=social)](https://github.com/CurryChen77/Highway-env-adversarial/stargazers)
 
 *We manipulate critical background vehicles in the Highway-Env to exhibit adversarial behaviors that challenge the ego vehicle, creating safety-critical scenarios.*
 
