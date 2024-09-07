@@ -26,7 +26,7 @@ redirect_from:
 
 # 🔥 News
 - *2024.09*:  🎉🎉 Our FREA paper has been accepted by *CoRL 2024*.
-- *2023.03*: &nbsp;🎉🎉 Our IGT paper has been accepted by the *Knowledge-Based Systems 2023*.
+- *2023.03*:  🎉🎉 Our IGT paper has been accepted by the *Knowledge-Based Systems 2023*.
 
 # 📝 Publications
 
