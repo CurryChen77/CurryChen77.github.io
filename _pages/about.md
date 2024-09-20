@@ -87,4 +87,6 @@ Knowledge-Based Systems **(KBS 2023)**
 # 💻 Internships
 - *2023.07 - 2023.08*, [Tsari](https://www.tsari.tsinghua.edu.cn/), Suzhou, China.
 
+<div style="display: flex; justify-content: center; align-items: center;">
 <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?w=166&d=G22ZMDy2KEs5OGq6rS0JucNzUxHn13B0tIPWaEGNGJo"></script>
+</div>
