@@ -25,7 +25,7 @@ redirect_from:
 
 
 # 🔥 News
-- *2024.09*:  🎉🎉 Our FREA paper has been accepted by *CoRL 2024*.
+- *2024.09*:  🎉🎉 Our FREA paper has been accepted by *CoRL 2024 for <span style="color:red">Oral Presentation</span>*.
 - *2023.03*:  🎉🎉 Our IGT paper has been accepted by *Knowledge-Based Systems 2023*.
 
 # 📝 Publications
@@ -33,10 +33,9 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><img src='images/FREA.gif' alt="sym" width="90%"></div>
 <div class='paper-box-text' markdown="1">
 **FREA: Feasibility-Guided Generation of Safety-Critical Scenarios with Reasonable Adversariality**
-
 **Keyu Chen**, Yuheng Lei, Hao Cheng, Haoran Wu, Wenchao Sun, Sifa Zheng
 
-The 8th Conference on Robot Learning **(CoRL 2024)**
+The 8th Conference on Robot Learning **(CoRL 2024  <span style="color:red">Oral</span>)**
 
 [![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2406.02983)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/FREA/)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/FREA)  [![Stars](https://img.shields.io/github/stars/CurryChen77/FREA?style=social)](https://github.com/CurryChen77/FREA/stargazers)
 
