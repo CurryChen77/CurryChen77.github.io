@@ -33,6 +33,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><img src='images/FREA.gif' alt="sym" width="90%"></div>
 <div class='paper-box-text' markdown="1">
 **FREA: Feasibility-Guided Generation of Safety-Critical Scenarios with Reasonable Adversariality**
+
 **Keyu Chen**, Yuheng Lei, Hao Cheng, Haoran Wu, Wenchao Sun, Sifa Zheng
 
 The 8th Conference on Robot Learning **(CoRL 2024  <span style="color:#b31b1b">Oral</span>)**
