@@ -33,10 +33,9 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><img src='images/FREA.gif' alt="sym" width="90%"></div>
 <div class='paper-box-text' markdown="1">
 **FREA: Feasibility-Guided Generation of Safety-Critical Scenarios with Reasonable Adversariality**
-
 **Keyu Chen**, Yuheng Lei, Hao Cheng, Haoran Wu, Wenchao Sun, Sifa Zheng
 
-The 8th Conference on Robot Learning **(CoRL 2024  <span style="color:#b31b1b">Oral</span>)**
+The 8th Conference on Robot Learning **(CoRL <span style="color:#b31b1b">Oral</span>), 2024**
 
 [![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2406.02983)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/FREA/)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/FREA)  [![Stars](https://img.shields.io/github/stars/CurryChen77/FREA?style=social)](https://github.com/CurryChen77/FREA/stargazers)
 
@@ -50,7 +49,7 @@ The 8th Conference on Robot Learning **(CoRL 2024  <span style="color:#b31b1b">O
 **IGT: Illumination-guided RGB-T object detection with transformers**
 **Keyu Chen**, Jinqiang Liu, Han Zhang
 
-Knowledge-Based Systems **(KBS 2023) (Q1, IF=7.4) **
+Knowledge-Based Systems **(KBS) (SCI Q1, IF=7.4), 2023**
 
 [![Custom badge](https://img.shields.io/badge/Elsevier-Paper-b31b1b?logo=Elsevier&logoColor=white?style=flat-square)](https://www.sciencedirect.com/science/article/pii/S0950705123001739?casa_token=uB0IUPawdkcAAAAA:xiqZf6isfEmqjSoG86H1J5PPAFZw0YT4QG8giHL0ADJNsXcyYcnzYd3ceq9tnZNWkTccpOXECDw) 
 
