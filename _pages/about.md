@@ -48,10 +48,9 @@ The 8th Conference on Robot Learning **(CoRL 2024  <span style="color:#b31b1b">O
 <div class='paper-box'><div class='paper-box-image'><img src='images/IGT.gif' alt="sym" width="90%"></div>
 <div class='paper-box-text' markdown="1">
 **IGT: Illumination-guided RGB-T object detection with transformers**
-
 **Keyu Chen**, Jinqiang Liu, Han Zhang
 
-Knowledge-Based Systems **(KBS 2023)**
+Knowledge-Based Systems **(KBS 2023) (Q1, IF=7.4) **
 
 [![Custom badge](https://img.shields.io/badge/Elsevier-Paper-b31b1b?logo=Elsevier&logoColor=white?style=flat-square)](https://www.sciencedirect.com/science/article/pii/S0950705123001739?casa_token=uB0IUPawdkcAAAAA:xiqZf6isfEmqjSoG86H1J5PPAFZw0YT4QG8giHL0ADJNsXcyYcnzYd3ceq9tnZNWkTccpOXECDw) 
 
