@@ -60,6 +60,36 @@
 
 <body>
 
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center">
+        <a class="navbar-item" href="https://currychen77.github.io">
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link"> More Research </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://currychen77.github.io/FREA/">
+              <b>FREA <span class="brmod" style="color:rgb(183, 0, 0)">(CoRL 2024 Oral)</span></b>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
   <section class="hero teaser" style="margin-top: 64px;">
     <div class="container is-max-desktop">
         <div align="center">
@@ -94,7 +124,7 @@
             <div class="column has-text-centered">
               <div class="publication-links">
                 <!-- PDF Link. -->
-                <span class="link-block">
+<!--                 <span class="link-block">
                   <a href="https://github.com/CurryChen77"
                      class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -102,18 +132,18 @@
                     </span>
                     <span>Paper</span>
                   </a>
-                </span>
+                </span> -->
 
                 <!-- arXiv Link. -->
-                <!-- <span class="link-block">
-                  <a target="_blank" href=""
+                <span class="link-block">
+                  <a target="_blank" href="https://arxiv.org/abs/2505.03344"
                      class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                         <i class="ai ai-arxiv"></i>
                     </span>
                     <span>arXiv</span>
                   </a>
-                </span> -->
+                </span>
                 <!-- Video Link. -->
                 <!-- <span class="link-block">
                   <a target="_blank" href="https://www.youtube.com/embed/gYEEMNHo5Lc"
@@ -132,7 +162,7 @@
                   <span class="icon">
                     <i class="fab fa-github"></i>
                   </span>
-                  <span>Code</span>
+                  <span>Code(Coming Soon)</span>
                   </a>
                 </span>
 
@@ -258,7 +288,7 @@
                   <div class="column">
                   <div class="content has-text-justified interpolation-panel">
                       <p style="text-align: justify;font-size: 18px"> 
-                        <strong>Overview of the <em>RIFT</em>:</strong> The upper section illustrates the overall architecture of <em><strong>RIFT</strong></em>. To enhance controllability, only the trajectory scoring head is fine-tuned, with the rest of the pre-trained network kept frozen to preserve trajectory-level realism. (a) Critical Background Vehicle (CBV) identification mechanism introduces route-level interactions. (b) Closed-loop fine-tuning improves user-aligned controllability.</p>
+                        <strong>Overview of the <em>RIFT</em>:</strong> The upper section illustrates the overall architecture of <em><strong>RIFT</strong></em>. To enhance controllability, only the trajectory scoring head is fine-tuned, with the rest of the pre-trained network kept frozen to preserve trajectory-level realism. (a) The CBV identification mechanism introduces route-level interactions between the AV and CBVs. (b) Closed-loop fine-tuning improves user-aligned controllability and mitigates covariate shift.</p>
                   </div>
                 </div>
               </div>
@@ -497,20 +527,25 @@
     <div class="container is-max-desktop content">
       <h2 class="titile">BibTeX</h2>
       If you find the project helpful for your research, please consider citing our paper:
-      <pre><code></code></pre>
+      <pre><code>@article{chen2025riftclosedlooprlfinetuning,
+  title={RIFT: Closed-Loop RL Fine-Tuning for Realistic and Controllable Traffic Simulation},
+  author={Keyu Chen and Wenchao Sun and Hao Cheng and Sifa Zheng},
+  journal={arXiv preprint arXiv:2505.03344},
+  year={2025}
+}</code></pre>
     </div>
   </section>
   
   <br><br><br>
 
-<!-- <footer class="footer">
+<footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
       <br />
       <p> Template from <a href="https://nerfies.github.io"><span class="dnerf">Nerfies</span></a>.</p>
     </div>
   </div>
-</footer> -->
+</footer>
 
 </body>
 </html>
