@@ -33,13 +33,14 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><img src='images/RIFT.gif' alt="sym" width="90%"></div>
 <div class='paper-box-text' markdown="1">
 **RIFT: Closed-Loop RL Fine-Tuning for Realistic and Controllable Traffic Simulation**
+
 **Keyu Chen**,Wenchao Sun, Hao Cheng, Sifa Zheng
 
-arXiv 2025**
+**arXiv 2025**
 
-[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2505.03344)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/RIFT/)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/RIFT)  [![Stars](https://img.shields.io/github/stars/CurryChen77/FREA?style=social)](https://github.com/CurryChen77/RIFT/stargazers)
+[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2505.03344)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/RIFT/)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/RIFT)  [![Stars](https://img.shields.io/github/stars/CurryChen77/RIFT?style=social)](https://github.com/CurryChen77/RIFT/stargazers)
 
-*RIFT introduces a dual-stage AV-centered simulation framework that conducts open-loop imitation learning pre-training in a data-driven simulator to capture trajectory-level realism and multimodality, followed by closed-loop reinforcement learning fine-tuning in a physics-based simulator to enhance controllability and mitigate covariate shift.*
+*RIFT conducts open-loop IL pre-training in a data-driven simulator for realism, followed by closed-loop RL fine-tuning in a physics-based simulator to enhance controllability.*
 
 </div>
 </div>
