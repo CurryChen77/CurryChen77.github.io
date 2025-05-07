@@ -30,7 +30,7 @@ redirect_from:
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><img src='images/RIFT.gif' alt="sym" width="90%"></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/RIFT.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **RIFT: Closed-Loop RL Fine-Tuning for Realistic and Controllable Traffic Simulation**
 
@@ -40,12 +40,12 @@ redirect_from:
 
 [![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2505.03344)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/RIFT/)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/RIFT)  [![Stars](https://img.shields.io/github/stars/CurryChen77/RIFT?style=social)](https://github.com/CurryChen77/RIFT/stargazers)
 
-*RIFT conducts open-loop IL pre-training in a data-driven simulator for realism, followed by closed-loop RL fine-tuning in a physics-based simulator to enhance controllability.*
+*RIFT conducts open-loop IL pre-training for realism, followed by closed-loop RL fine-tuning to enhance controllability.*
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><img src='images/FREA.gif' alt="sym" width="90%"></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CoRL 2024</div><img src='images/FREA.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **FREA: Feasibility-Guided Generation of Safety-Critical Scenarios with Reasonable Adversariality**
 
@@ -60,7 +60,7 @@ The 8th Conference on Robot Learning **(CoRL <span style="color:#b31b1b">Oral 4.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><img src='images/IGT.gif' alt="sym" width="90%"></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2023</div><img src='images/IGT.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **IGT: Illumination-guided RGB-T object detection with transformers**
 
@@ -77,7 +77,7 @@ Knowledge-Based Systems **(KBS) (SCI Q1, IF=7.4), 2023**
 
 #  🚀 Project
 
-<div class='paper-box'><div class='paper-box-image'><img src='images/Highway-Adv.gif' alt="sym" width="90%"></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Github</div><img src='images/Highway-Adv.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Highway-Adversarial**
