@@ -17,16 +17,20 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<span style="font-size: larger;">I am a second-year PhD student from the School of Vehicle and Mobility at Tsinghua University, under the guidance of [Prof. Sifa Zheng](http://www.svm.tsinghua.edu.cn/essay/80/1835.html). Prior to this, I graduated from Nanjing University of Aeronautics and Astronautics (NUAA) with a bachelor degree. </span>
+<img src="../images/WestLake.JPG" alt="description" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 2px 2px 6px rgba(0,0,0,0.2);" />
 
-<span style="font-size: larger;">My current research interests lie in the learning-based planning and adversarial testing for autonomous driving. Previously, my research focused on the multi-modality perception. My ultimate goal is to leverage AI to empower autonomous driving, enabling the creation of safer and more reliable self-driving systems.</span>
+<span style="font-size: larger;">I am a third-year PhD student from the School of Vehicle and Mobility at Tsinghua University, under the guidance of [Prof. Sifa Zheng](http://www.svm.tsinghua.edu.cn/essay/80/1835.html). </span>
 
-<span style="font-size: medium;">**Current Google Scholar Citations:**</span> <a href='https://scholar.google.com/citations?user=m_bC1VAAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+<span style="font-size: larger;">My research centers on **traffic simulation and motion planning for autonomous driving**, with a particular emphasis on creating realistic, interactive, and controllable traffic scenarios. I am passionate about developing reliable closed-loop simulation frameworks to accelerate the safe, robust, and scalable advancement of autonomous driving systems.</span>
 
+<span style="font-size: medium;">**Google Scholar Citations:**</span> <a href='https://scholar.google.com/citations?user=m_bC1VAAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 # 🔥 News
-- *2024.09*:  🎉🎉 Our FREA paper has been accepted by *CoRL 2024 for **<span style="color:#b31b1b">Oral (4.3%)</span>***.
-- *2023.03*:  🎉🎉 Our IGT paper has been accepted by *Knowledge-Based Systems 2023*.
+
+* *2025.05*:  🔥 Released **RIFT**! [Check it out!](https://currychen77.github.io/RIFT/)  
+
+- *2024.09*:  🎉 **FREA** accepted by *CoRL 2024 for **<span style="color:#b31b1b">Oral (4.3%)</span>***.
+- *2023.03*:  🎉 **IGT** accepted by *Knowledge-Based Systems 2023*.
 
 # 📝 Publications
 
