@@ -44,7 +44,7 @@ redirect_from:
 
 [![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2505.03344)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/RIFT/)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/RIFT)  [![Stars](https://img.shields.io/github/stars/CurryChen77/RIFT?style=social)](https://github.com/CurryChen77/RIFT/stargazers)
 
-*RIFT conducts open-loop IL pre-training for realism, followed by closed-loop RL fine-tuning to enhance controllability.*
+*RIFT achieve realistic and controllable traffic simulation by combining open-loop IL pre-training in a data-driven simulator for realism with closed-loop RL fine-tuning in a physics-based simulator for controllability.*
 
 </div>
 </div>
