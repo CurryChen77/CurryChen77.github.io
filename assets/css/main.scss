@@ -56,7 +56,7 @@
         width: 100%;
         order: 2;
         img {
-            max-width: 380px;
+            max-width: 350px;
             object-fit: cover;
             box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);;
             border-radius: 8px;
@@ -73,14 +73,14 @@
         .paper-box-image{
             justify-content: left;
             min-width: 200px;
-            max-width: 38%;
+            max-width: 35%;
             order: 1;
         }
         
         .paper-box-text{
             justify-content: left;
             padding-left: 2em;
-            max-width: 62%;
+            max-width: 65%;
             order: 2;
         }
 
@@ -107,6 +107,6 @@ h1:before, .anchor:before {
     margin-left: -.5em;
     color: white;
     font-weight: bold;
-    background-color: #c19cc7;
+    background-color: rgba(166,166,166, 0.6);
     font-size: 1em;
 }
