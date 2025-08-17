@@ -23,8 +23,6 @@ redirect_from:
 
 <span style="font-size: larger;">My research centers on **traffic simulation and motion planning for autonomous driving**, with a particular emphasis on creating realistic, interactive, and controllable traffic scenarios. I am passionate about developing reliable closed-loop simulation frameworks to accelerate the safe, robust, and scalable advancement of autonomous driving systems.</span>
 
-<span style="font-size: medium;">**Google Scholar Citations:**</span> <a href='https://scholar.google.com/citations?user=m_bC1VAAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
-
 # 🔥 News
 
 * *2025.05*:  🔥 Released **RIFT**! [Check it out!](https://currychen77.github.io/RIFT/)  
