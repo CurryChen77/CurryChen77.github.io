@@ -214,7 +214,7 @@
         </div>
   <!--       <h2 class="subtitle">
             <p>
-              <br>we introduce a dual-stage AV-centered simulation framework that conducts open-loop imitation learning pre-training in a data-driven simulator to capture trajectory-level realism and multimodality, followed by closed-loop reinforcement learning fine-tuning in a physics-based simulator to enhance controllability and mitigate covariate shift.
+              <br>we introduce a dual-stage AV-centric simulation framework that conducts open-loop imitation learning pre-training in a data-driven simulator to capture trajectory-level realism and multimodality, followed by closed-loop reinforcement learning fine-tuning in a physics-based simulator to enhance controllability and mitigate covariate shift.
             </p>
         </h2> -->
       </div>
@@ -228,7 +228,7 @@
       <div class="hero-body">
         <h2 class="subtitle">
           <!-- Given a scene, our approach (VRB) learns  <strong> actionable representations </strong> for robot learning. VRB predicts contact points and a post-contact trajectory learned from <strong> human videos </strong>.  -->
-          we introduce a <strong>dual-stage AV-centered simulation framework</strong> that conducts <strong>open-loop imitation learning pre-training</strong> in a data-driven simulator to capture trajectory-level realism and multimodality, followed by <strong>closed-loop reinforcement learning fine-tuning</strong> in a physics-based simulator to enhance controllability and mitigate covariate shift.
+          we introduce a <strong>dual-stage AV-centric simulation framework</strong> that conducts <strong>open-loop imitation learning pre-training</strong> in a data-driven simulator to capture trajectory-level realism and multimodality, followed by <strong>closed-loop reinforcement learning fine-tuning</strong> in a physics-based simulator to enhance controllability and mitigate covariate shift.
         </h2>
         <div align="center">
           <img src="static/images/intro.png" alt="Image description" style="max-width:100%; height:auto; image-rendering: -webkit-optimize-contrast;">
@@ -255,7 +255,7 @@
       <div class="columns is-centered has-text-centered">
         <div class="column is-two-thirds ">
           <div class="content has-text-justified">
-            Achieving both realism and controllability in interactive closed-loop traffic simulation remains a key challenge in autonomous driving. Data-driven simulation methods reproduce realistic trajectories but suffer from <em>covariate shift</em> in closed-loop deployment, compounded by simplified dynamics models that further reduce reliability. Conversely, physics-based simulation methods enhance reliable and controllable closed-loop interactions but often lack expert demonstrations, compromising realism. To address these challenges, we introduce a dual-stage AV-centered simulation framework that conducts open-loop imitation learning pre-training in a data-driven simulator to capture trajectory-level realism and multimodality, followed by closed-loop reinforcement learning fine-tuning in a physics-based simulator to enhance controllability and mitigate covariate shift. In the fine-tuning stage, we propose <em><strong>RIFT</strong></em>, a simple yet effective closed-loop RL fine-tuning strategy that preserves the trajectory-level multimodality through a GRPO-style group-relative advantage formulation, while enhancing controllability and training stability by replacing KL regularization with the dual-clip mechanism. Extensive experiments demonstrate that <em><strong>RIFT</strong></em> significantly improves the realism and controllability of generated traffic scenarios, providing a robust platform for evaluating autonomous vehicle performance in diverse and interactive scenarios.
+            Achieving both realism and controllability in closed-loop traffic simulation remains a key challenge in autonomous driving. Dataset-based methods reproduce realistic trajectories but suffer from <em>covariate shift</em> in closed-loop deployment, compounded by simplified dynamics models that further reduce reliability. Conversely, physics-based simulation methods enhance reliable and controllable closed-loop interactions but often lack expert demonstrations, compromising realism. To address these challenges, we introduce a dual-stage AV-centric simulation framework that conducts open-loop imitation learning pre-training in a data-driven simulator to capture trajectory-level realism and route-level controllability, followed by closed-loop reinforcement learning fine-tuning in a physics-based simulator to enhance style-level controllability and mitigate covariate shift. In the fine-tuning stage, we propose <em><strong>RIFT</strong></em>, a novel RL fine-tuning strategy that evaluates all candidate modalities through group-relative optimization with a dual-clip surrogate objective, enhancing style-level controllability and mitigating covariate shift, while preserving the trajectory-level realism and route-level controllability inherited from IL pre-training. Extensive experiments demonstrate that <em><strong>RIFT</strong></em> improves realism and controllability in traffic simulation while simultaneously exposing the limitations of modern AV systems in closed-loop evaluation.
           </div>
         </div>
         </div>
@@ -288,7 +288,7 @@
                   <div class="column">
                   <div class="content has-text-justified interpolation-panel">
                       <p style="text-align: justify;font-size: 18px"> 
-                        <strong>Overview of the <em>RIFT</em>:</strong> The upper section illustrates the overall architecture of <em><strong>RIFT</strong></em>. To enhance controllability, only the trajectory scoring head is fine-tuned, with the rest of the pre-trained network kept frozen to preserve trajectory-level realism. (a) The CBV identification mechanism introduces route-level interactions between the AV and CBVs. (b) Closed-loop fine-tuning improves user-aligned controllability and mitigates covariate shift.</p>
+                        <strong>Overview of the <em>RIFT</em>:</strong> Building on the IL pre-trained model, <em>RIFT</em> first performs route-level interaction analysis to identify critical background vehicles and their associated reference lines, enabling the generation of realistic and multimodal trajectories. To isolate style-level controllability from the trajectory-level realism and route-level controllability established during pre-training, only the scoring head is fine-tuned via <em>RIFT</em>, with the remaining components kept frozen. Specifically, <em>RIFT</em> computes group-relative advantages over all candidate rollouts, promoting alignment with user-preferred styles and mitigating covariate shift through closed-loop RL fine-tuning.</p>
                   </div>
                 </div>
               </div>
@@ -320,7 +320,7 @@
               <div class="columns is-centered">
                 <div class="column is-full-width" style="text-align: justify;">
                   <p>
-                    The AV-centered traffic simulation environment consists of the autonomoud vehicle<span style="color: #FF0000; opacity: 0.6;">(AV, implemented as PDM-Lite)</span>, Critical Background Vehicles <span style="color: #9500ff; opacity: 0.6;">(CBVs)</span>, and background vehicles <span style="color: #001eff; opacity: 0.6;">(BVs)</span>, where the <span style="color: #FF0000; opacity: 0.6;">AV</span> follows a predefined global route and the <span style="color: #9500ff; opacity: 0.6;">CBVs</span> may interact with it at route level.
+                    The AV-centric traffic simulation consists of the autonomoud vehicle<span style="color: #FF0000; opacity: 0.6;">(AV, implemented as PDM-Lite)</span>, Critical Background Vehicles <span style="color: #9500ff; opacity: 0.6;">(CBVs)</span>, and background vehicles <span style="color: #001eff; opacity: 0.6;">(BVs)</span>, where the <span style="color: #FF0000; opacity: 0.6;">AV</span> follows a predefined global route and the <span style="color: #9500ff; opacity: 0.6;">CBVs</span> may interact with it at route level.
                   </p>
                 </div>
               </div>
@@ -608,7 +608,7 @@
               <img src="static/images/main_result.png" alt="Image description" width="100%">
             </div>
             <p>
-              <em><strong>RIFT</strong></em> consistently outperforms all baselines in both aspects across most settings. While supervised learning methods achieve slightly lower infraction rates, this improvement is primarily due to their inherently conservative behavior, derived from the expert PDM-Lite, which prioritizes safety by avoiding risky maneuvers.
+              <em><strong>RIFT</strong></em> consistently outperforms all baselines in both aspects across most settings. While supervised learning methods achieve slightly lower CPK and ORR, this improvement is primarily due to their inherently conservative behavior, derived from the expert PDM-Lite, which prioritizes safety by avoiding risky maneuvers.
             </p>
             <h2 class="subtitle is-3" style="text-align: center;">
               <img id="painting_icon" width="5%" src="static/images/table.png">
@@ -618,7 +618,7 @@
               <img src="static/images/eval_result.png" alt="Image description" width="100%">
             </div>
             <p>
-              under the <em><strong>RIFT</strong></em>-generated scenarios, AVs achieve near-optimal Driving Score (DS), Route Completion (RC), and Infraction Score (IS), along with the lowest BR. These findings highlight <em><strong>RIFT</strong></em>’s effectiveness in minimizing blocking while maintaining realism and interactivity, underscoring its superiority in closed-loop AV evaluation.
+              <em><strong>RIFT</strong></em> produces realistic and well-structured scenarios that are effective at exposing the limitations of modern AV systems.
             </p>
             <h2 class="subtitle is-3" style="text-align: center;">
               <img id="painting_icon" width="5%" src="static/images/driving-school.png">
