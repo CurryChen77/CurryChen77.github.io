@@ -32,6 +32,8 @@ redirect_from:
 
 # 📝 Publications
 
+## :high_brightness: Select Publications
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/RIFT.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **RIFT: Closed-Loop RL Fine-Tuning for Realistic and Controllable Traffic Simulation**
@@ -76,6 +78,14 @@ Knowledge-Based Systems **(KBS) (SCI Q1, IF=7.4), 2023**
 
 </div>
 </div>
+
+## :books: ​All Publications
+
+* [DriveCamSim: Generalizable Camera Simulation via Explicit Camera Modeling for Autonomous Driving](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=m_bC1VAAAAAJ&citation_for_view=m_bC1VAAAAAJ:UeHWp8X0CEIC) W Sun, X Lin, K Chen, Z Pei, Y Shi, C Zhang, S Zheng. **arXiv (2025)**
+
+* [Emergency Index (EI): A two-dimensional surrogate safety measure considering vehicles’ interaction depth](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=m_bC1VAAAAAJ&citation_for_view=m_bC1VAAAAAJ:9yKSN-GCB0IC). Hao Cheng, Yanbo Jiang, Hailun Zhang, **Keyu Chen**, Heye Huang, Shaobing Xu, Jianqiang Wang, Sifa Zheng. **Transportation Research Part C: Emerging Technologies (2025)**
+
+  
 
 #  🚀 Project
 
