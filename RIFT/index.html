@@ -103,7 +103,7 @@
       <div class="container">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Closed-Loop RL Fine-Tuning for Realistic and Controllable Traffic Simulation</h1>
+            <h1 class="title is-1 publication-title">Group-Relative RL Fine-Tuning for Realistic and Controllable Traffic Simulation</h1>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
                 <!-- Author Names Omitted for Anonymous Review. -->
@@ -228,7 +228,7 @@
       <div class="hero-body">
         <h2 class="subtitle">
           <!-- Given a scene, our approach (VRB) learns  <strong> actionable representations </strong> for robot learning. VRB predicts contact points and a post-contact trajectory learned from <strong> human videos </strong>.  -->
-          we introduce a <strong>dual-stage AV-centric simulation framework</strong> that conducts <strong>open-loop imitation learning pre-training</strong> in a data-driven simulator to capture trajectory-level realism and multimodality, followed by <strong>closed-loop reinforcement learning fine-tuning</strong> in a physics-based simulator to enhance controllability and mitigate covariate shift.
+          we introduce a <strong>dual-stage AV-centric simulation framework</strong> that conducts <strong>imitation learning pre-training</strong> in a data-driven simulator to capture trajectory-level realism and multimodality, followed by <strong>reinforcement learning fine-tuning</strong> in a physics-based simulator to enhance controllability and mitigate covariate shift.
         </h2>
         <div align="center">
           <img src="static/images/intro.png" alt="Image description" style="max-width:100%; height:auto; image-rendering: -webkit-optimize-contrast;">
@@ -255,7 +255,7 @@
       <div class="columns is-centered has-text-centered">
         <div class="column is-two-thirds ">
           <div class="content has-text-justified">
-            Achieving both realism and controllability in closed-loop traffic simulation remains a key challenge in autonomous driving. Dataset-based methods reproduce realistic trajectories but suffer from <em>covariate shift</em> in closed-loop deployment, compounded by simplified dynamics models that further reduce reliability. Conversely, physics-based simulation methods enhance reliable and controllable closed-loop interactions but often lack expert demonstrations, compromising realism. To address these challenges, we introduce a dual-stage AV-centric simulation framework that conducts open-loop imitation learning pre-training in a data-driven simulator to capture trajectory-level realism and route-level controllability, followed by closed-loop reinforcement learning fine-tuning in a physics-based simulator to enhance style-level controllability and mitigate covariate shift. In the fine-tuning stage, we propose <em><strong>RIFT</strong></em>, a novel RL fine-tuning strategy that evaluates all candidate modalities through group-relative optimization with a dual-clip surrogate objective, enhancing style-level controllability and mitigating covariate shift, while preserving the trajectory-level realism and route-level controllability inherited from IL pre-training. Extensive experiments demonstrate that <em><strong>RIFT</strong></em> improves realism and controllability in traffic simulation while simultaneously exposing the limitations of modern AV systems in closed-loop evaluation.
+            Achieving both realism and controllability in closed-loop traffic simulation remains a key challenge in autonomous driving. Dataset-based methods reproduce realistic trajectories but suffer from <em>covariate shift</em> in closed-loop deployment, compounded by simplified dynamics models that further reduce reliability. Conversely, physics-based simulation methods enhance reliable and controllable closed-loop interactions but often lack expert demonstrations, compromising realism. To address these challenges, we introduce a dual-stage AV-centric simulation framework that conducts imitation learning pre-training in a data-driven simulator to capture trajectory-level realism and route-level controllability, followed by reinforcement learning fine-tuning in a physics-based simulator to enhance style-level controllability and mitigate covariate shift. In the fine-tuning stage, we propose <em><strong>RIFT</strong></em>, a novel group-relative RL fine-tuning strategy that evaluates all candidate modalities through group-relative formulation and employs a surrogate objective for stable optimization, enhancing style-level controllability and mitigating covariate shift while preserving the trajectory-level realism and route-level controllability inherited from IL pre-training. Extensive experiments demonstrate that <em><strong>RIFT</strong></em> improves realism and controllability in traffic simulation while simultaneously exposing the limitations of modern AV systems in closed-loop evaluation.
           </div>
         </div>
         </div>
@@ -288,7 +288,7 @@
                   <div class="column">
                   <div class="content has-text-justified interpolation-panel">
                       <p style="text-align: justify;font-size: 18px"> 
-                        <strong>Overview of the <em>RIFT</em>:</strong> Building on the IL pre-trained model, <em>RIFT</em> first performs route-level interaction analysis to identify critical background vehicles and their associated reference lines, enabling the generation of realistic and multimodal trajectories. To isolate style-level controllability from the trajectory-level realism and route-level controllability established during pre-training, only the scoring head is fine-tuned via <em>RIFT</em>, with the remaining components kept frozen. Specifically, <em>RIFT</em> computes group-relative advantages over all candidate rollouts, promoting alignment with user-preferred styles and mitigating covariate shift through closed-loop RL fine-tuning.</p>
+                        <strong>Overview of the <em>RIFT</em>:</strong> Building on the IL pre-trained model, <em>RIFT</em> first performs route-level interaction analysis to identify critical background vehicles and their associated reference lines, enabling the generation of realistic and multimodal trajectories. To isolate style-level controllability from the trajectory-level realism and route-level controllability established during pre-training, only the scoring head is fine-tuned via <em>RIFT</em>, with the remaining components kept frozen. Specifically, <em>RIFT</em> computes group-relative advantages over all candidate rollouts, promoting alignment with user-preferred styles and mitigating covariate shift through RL fine-tuning.</p>
                   </div>
                 </div>
               </div>

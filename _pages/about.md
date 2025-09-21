@@ -36,7 +36,8 @@ redirect_from:
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/RIFT.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-**RIFT: Closed-Loop RL Fine-Tuning for Realistic and Controllable Traffic Simulation**
+**RIFT: Group-Relative RL Fine-Tuning for Realistic and Controllable Traffic Simulation**
+
 
 **Keyu Chen**,Wenchao Sun, Hao Cheng, Sifa Zheng
 
@@ -44,7 +45,7 @@ redirect_from:
 
 [![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2505.03344)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/RIFT/)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/RIFT)  [![Stars](https://img.shields.io/github/stars/CurryChen77/RIFT?style=social)](https://github.com/CurryChen77/RIFT/stargazers)
 
-*RIFT achieve realistic and controllable traffic simulation by combining open-loop IL pre-training in a data-driven simulator for realism with closed-loop RL fine-tuning in a physics-based simulator for controllability.*
+*RIFT achieve realistic and controllable traffic simulation by combining IL pre-training in a data-driven simulator for realism with RL fine-tuning in a physics-based simulator for controllability.*
 
 </div>
 </div>
