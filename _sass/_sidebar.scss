@@ -277,6 +277,7 @@
       width: 20px;
       text-align: center;
       transition: all 0.2s ease;
+      color: inherit !important; // 覆盖所有全局图标颜色设置，包括Twitter
     }
 
     &:hover {
@@ -411,7 +412,7 @@
   font-size: 1.75em;
   display: block;
   a {
-    color: inherit;
+    color: inherit !important; // 覆盖所有全局图标颜色设置，包括Twitter
     text-decoration: none;
     margin: 0 0.3em;
     display: inline-block;
