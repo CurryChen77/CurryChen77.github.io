@@ -291,7 +291,7 @@
     
     // 为不同类型的链接添加品牌颜色（默认状态和悬停状态）
     &[href*="twitter.com"], &[href*="x.com"] {
-      i { color: #1DA1F2; }
+      i { color: #1DA1F2 !important; }
       &:hover { 
         background-color: rgba(29, 161, 242, 0.1);
         border-left: 3px solid #1DA1F2;
@@ -299,7 +299,7 @@
     }
     
     &[href*="github.com"] {
-      i { color: #333; }
+      i { color: #333 !important; }
       &:hover { 
         background-color: rgba(51, 51, 51, 0.1);
         border-left: 3px solid #333;
@@ -307,7 +307,7 @@
     }
     
     &[href*="researchgate.net"] {
-      i { color: #00d0af; }
+      i { color: #00d0af !important; }
       &:hover { 
         background-color: rgba(0, 208, 175, 0.1);
         border-left: 3px solid #00d0af;
@@ -315,7 +315,7 @@
     }
     
     &[href*="scholar.google"] {
-      i { color: #4285f4; }
+      i { color: #4285f4 !important; }
       &:hover { 
         background-color: rgba(66, 133, 244, 0.1);
         border-left: 3px solid #4285f4;
@@ -323,7 +323,7 @@
     }
     
     &[href*="orcid.org"] {
-      i { color: #a6ce39; }
+      i { color: #a6ce39 !important; }
       &:hover { 
         background-color: rgba(166, 206, 57, 0.1);
         border-left: 3px solid #a6ce39;
@@ -331,7 +331,7 @@
     }
     
     &[href*="mailto:"] {
-      i { color: #ea4335; }
+      i { color: #ea4335 !important; }
       &:hover { 
         background-color: rgba(234, 67, 53, 0.1);
         border-left: 3px solid #ea4335;
@@ -339,7 +339,7 @@
     }
     
     &[href$=".pdf"] {
-      i { color: #dc3545; }
+      i { color: #dc3545 !important; }
       &:hover { 
         background-color: rgba(220, 53, 69, 0.1);
         border-left: 3px solid #dc3545;
@@ -348,7 +348,7 @@
     
     // 为其他常见社交媒体添加品牌颜色
     &[href*="linkedin.com"] {
-      i { color: #0077b5; }
+      i { color: #0077b5 !important; }
       &:hover { 
         background-color: rgba(0, 119, 181, 0.1);
         border-left: 3px solid #0077b5;
@@ -356,7 +356,7 @@
     }
     
     &[href*="facebook.com"] {
-      i { color: #1877f2; }
+      i { color: #1877f2 !important; }
       &:hover { 
         background-color: rgba(24, 119, 242, 0.1);
         border-left: 3px solid #1877f2;
@@ -364,7 +364,7 @@
     }
     
     &[href*="instagram.com"] {
-      i { color: #e4405f; }
+      i { color: #e4405f !important; }
       &:hover { 
         background-color: rgba(228, 64, 95, 0.1);
         border-left: 3px solid #e4405f;
@@ -372,7 +372,7 @@
     }
     
     &[href*="youtube.com"] {
-      i { color: #ff0000; }
+      i { color: #ff0000 !important; }
       &:hover { 
         background-color: rgba(255, 0, 0, 0.1);
         border-left: 3px solid #ff0000;
@@ -427,58 +427,58 @@
     
     // 为不同社交媒体添加品牌色彩（默认状态和悬停状态）
     &[href*="twitter.com"], &[href*="x.com"] {
-      color: #1DA1F2;
+      color: #1DA1F2 !important;
       &:hover { background-color: rgba(29, 161, 242, 0.1); }
     }
     
     &[href*="github.com"] {
-      color: #333;
+      color: #333 !important;
       &:hover { background-color: rgba(51, 51, 51, 0.1); }
     }
     
     &[href*="researchgate.net"] {
-      color: #00d0af;
+      color: #00d0af !important;
       &:hover { background-color: rgba(0, 208, 175, 0.1); }
     }
     
     &[href*="scholar.google"] {
-      color: #4285f4;
+      color: #4285f4 !important;
       &:hover { background-color: rgba(66, 133, 244, 0.1); }
     }
     
     &[href*="orcid.org"] {
-      color: #a6ce39;
+      color: #a6ce39 !important;
       &:hover { background-color: rgba(166, 206, 57, 0.1); }
     }
     
     &[href*="mailto:"] {
-      color: #ea4335;
+      color: #ea4335 !important;
       &:hover { background-color: rgba(234, 67, 53, 0.1); }
     }
     
     &[href$=".pdf"] {
-      color: #dc3545;
+      color: #dc3545 !important;
       &:hover { background-color: rgba(220, 53, 69, 0.1); }
     }
     
     // 为其他常见社交媒体添加品牌颜色
     &[href*="linkedin.com"] {
-      color: #0077b5;
+      color: #0077b5 !important;
       &:hover { background-color: rgba(0, 119, 181, 0.1); }
     }
     
     &[href*="facebook.com"] {
-      color: #1877f2;
+      color: #1877f2 !important;
       &:hover { background-color: rgba(24, 119, 242, 0.1); }
     }
     
     &[href*="instagram.com"] {
-      color: #e4405f;
+      color: #e4405f !important;
       &:hover { background-color: rgba(228, 64, 95, 0.1); }
     }
     
     &[href*="youtube.com"] {
-      color: #ff0000;
+      color: #ff0000 !important;
       &:hover { background-color: rgba(255, 0, 0, 0.1); }
     }
   }
