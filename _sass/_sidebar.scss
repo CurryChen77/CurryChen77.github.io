@@ -76,6 +76,30 @@
   justify-content: flex-start;
   align-content: flex-start;
   align-items: center;
+  
+  // 添加优雅的卡片效果
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 1.5em;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  
+  &:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+  }
+  
+  @include breakpoint($large) {
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    
+    &:hover {
+      box-shadow: none;
+      transform: none;
+    }
+  }
 }
 
 .author__avatar {
@@ -240,15 +264,86 @@
   a {
     display: block;
     margin-bottom: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding: 6px 12px;
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    position: relative;
+    
+    i {
+      margin-right: 8px;
+      width: 20px;
+      text-align: center;
+      transition: all 0.2s ease;
+    }
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
+      background-color: rgba(0, 0, 0, 0.05);
+      padding-left: 16px;
+      
+      i {
+        transform: scale(1.1);
+      }
+    }
+    
+    // 为不同类型的链接添加特殊效果
+    &[href*="twitter.com"], &[href*="x.com"] {
+      &:hover { 
+        background-color: rgba(29, 161, 242, 0.1);
+        border-left: 3px solid #1DA1F2;
+        i { color: #1DA1F2; }
+      }
+    }
+    
+    &[href*="github.com"] {
+      &:hover { 
+        background-color: rgba(51, 51, 51, 0.1);
+        border-left: 3px solid #333;
+        i { color: #333; }
+      }
+    }
+    
+    &[href*="researchgate.net"] {
+      &:hover { 
+        background-color: rgba(0, 208, 175, 0.1);
+        border-left: 3px solid #00d0af;
+        i { color: #00d0af; }
+      }
+    }
+    
+    &[href*="scholar.google"] {
+      &:hover { 
+        background-color: rgba(66, 133, 244, 0.1);
+        border-left: 3px solid #4285f4;
+        i { color: #4285f4; }
+      }
+    }
+    
+    &[href*="orcid.org"] {
+      &:hover { 
+        background-color: rgba(166, 206, 57, 0.1);
+        border-left: 3px solid #a6ce39;
+        i { color: #a6ce39; }
+      }
+    }
+    
+    &[href*="mailto:"] {
+      &:hover { 
+        background-color: rgba(234, 67, 53, 0.1);
+        border-left: 3px solid #ea4335;
+        i { color: #ea4335; }
+      }
+    }
+    
+    &[href$=".pdf"] {
+      &:hover { 
+        background-color: rgba(220, 53, 69, 0.1);
+        border-left: 3px solid #dc3545;
+        i { color: #dc3545; }
+      }
     }
   }
 }
@@ -260,8 +355,45 @@
   a {
     color: inherit;
     text-decoration: none;
+    margin: 0 0.3em;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    padding: 0.3em;
+    
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
+      transform: translateY(-2px) scale(1.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    
+    // 为不同社交媒体添加品牌色彩
+    &[href*="twitter.com"], &[href*="x.com"] {
+      &:hover { color: #1DA1F2; background-color: rgba(29, 161, 242, 0.1); }
+    }
+    
+    &[href*="github.com"] {
+      &:hover { color: #333; background-color: rgba(51, 51, 51, 0.1); }
+    }
+    
+    &[href*="researchgate.net"] {
+      &:hover { color: #00d0af; background-color: rgba(0, 208, 175, 0.1); }
+    }
+    
+    &[href*="scholar.google"] {
+      &:hover { color: #4285f4; background-color: rgba(66, 133, 244, 0.1); }
+    }
+    
+    &[href*="orcid.org"] {
+      &:hover { color: #a6ce39; background-color: rgba(166, 206, 57, 0.1); }
+    }
+    
+    &[href*="mailto:"] {
+      &:hover { color: #ea4335; background-color: rgba(234, 67, 53, 0.1); }
+    }
+    
+    &[href$=".pdf"] {
+      &:hover { color: #dc3545; background-color: rgba(220, 53, 69, 0.1); }
     }
   }
   @include breakpoint($large) {
