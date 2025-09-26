@@ -26,6 +26,7 @@ author:
   bio              : "Tsinghua University"
   location         : "Beijing, China"
   employer         :
+  cv               : "assets/pdfs/RIFT_ICLR_2026.pdf"  # Path to your CV PDF file
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=m_bC1VAAAAAJ&hl"
   email            : "chenkeyu7777@gmail.com"
