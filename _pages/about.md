@@ -17,7 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<img src="../images/teaser.JPG" alt="description" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 2px 2px 6px rgba(0,0,0,0.2);" />
+<!-- <img src="../images/teaser.JPG" alt="description" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 2px 2px 6px rgba(0,0,0,0.2);" /> -->
+
+# 👨‍🎓 About Me
 
 <span style="font-size: larger;">I am a third-year Ph.D. student in the School of Vehicle and Mobility at Tsinghua University, working under the supervision of [Prof. Sifa Zheng](http://www.svm.tsinghua.edu.cn/essay/80/1835.html). </span>
 
