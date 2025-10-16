@@ -27,6 +27,7 @@ author:
   location         : "Beijing, China"
   employer         :
   cv               : "assets/pdfs/CV_Keyu_Chen_EN.pdf"  # Path to your CV PDF file
+  cv_cn            : "assets/pdfs/CV_Keyu_Chen_CN.pdf"  # Path to your Chinese CV PDF file
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=m_bC1VAAAAAJ&hl"
   email            : "chenkeyu7777@gmail.com"
