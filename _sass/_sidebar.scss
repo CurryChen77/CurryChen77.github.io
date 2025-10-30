@@ -73,6 +73,7 @@
     display: block;
   }
   display: flex;
+  flex-wrap: wrap; // allow items to wrap on small screens
   justify-content: flex-start;
   align-content: flex-start;
   align-items: center;
@@ -176,7 +177,10 @@
   font-family: $sans-serif;
   z-index: 10;
   position: relative;
-  margin-left: auto;
+  // Mobile-first: place icons full width under the name block
+  margin-left: 0;
+  width: 100%;
+  text-align: center;
   cursor: pointer;
 
   li:last-child {
@@ -186,7 +190,11 @@
   }
 
   @include breakpoint($large) {
+    // Desktop: restore original behavior in sidebar
     display: block;
+    width: auto;
+    margin-left: auto;
+    text-align: left;
   }
 
   button {
@@ -410,12 +418,20 @@
 .author__urls_sm{
   padding: .25em;
   font-size: 1.75em;
-  display: block;
+  // Mobile icon row(s): wrap into multiple columns
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .25em .4em;
   a {
     color: inherit !important; // 覆盖所有全局图标颜色设置，包括Twitter
     text-decoration: none;
-    margin: 0 0.3em;
-    display: inline-block;
+    margin: 0; // spacing handled by gap
+    width: 1.4em;
+    height: 1.4em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     transition: all 0.3s ease;
     border-radius: 50%;
     padding: 0.3em;
@@ -509,4 +525,3 @@
     display: none;
   }
 }
-
