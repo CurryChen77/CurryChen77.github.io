@@ -111,11 +111,47 @@ Knowledge-Based Systems **(KBS) (SCI Q1, IF=7.4), 2023**
 - *2021.12* National Scholarship (Top 1%), NUAA. 
 
 # 📖 Educations
-- *2023.09 - present*, PhD candidate, Mechanical engineering, Tsinghua University, Beijing, China. 
-- *2019.09 - 2023.06*, Bachelor, Vehicle Engineering, NUAA (Nanjing University of Aeronautics and Astronautics), Nanjing, China. 
+
+<div style="display:flex; flex-direction:column; gap:16px;">
+  <div style="display:flex; align-items:center; gap:14px;">
+    <img src="/images/thu.ico" alt="Tsinghua University logo" style="height:40px; width:40px; border-radius:6px;">
+    <div>
+      <div style="font-weight:600;"><a href="https://www.tsinghua.edu.cn/en/" target="_blank" rel="noopener">THU</a> (Tsinghua University), Beijing, China</div>
+      <div style="font-size:0.95em; color:#5f6368;">Ph.D. candidate in Mechanical Engineering, School of Vehicle and Mobility.</div>
+      <div style="font-size:0.9em; color:#8a8f94; font-style:italic;">2023.09 - present</div>
+    </div>
+  </div>
+  <div style="display:flex; align-items:center; gap:14px;">
+    <img src="/images/nuaa.ico" alt="NUAA logo" style="height:40px; width:40px; border-radius:6px;">
+    <div>
+      <div style="font-weight:600;"><a href="https://www.nuaa.edu.cn/" target="_blank" rel="noopener">NUAA</a> (Nanjing University of Aeronautics and Astronautics), Nanjing, China</div>
+      <div style="font-size:0.95em; color:#5f6368;">B.Eng. in Vehicle Engineering.</div>
+      <div style="font-size:0.9em; color:#8a8f94; font-style:italic;">2019.09 - 2023.06</div>
+    </div>
+  </div>
+</div>
+
 
 # 💻 Internships
-- *2023.07 - 2023.08*, [Tsari](https://www.tsari.tsinghua.edu.cn/), Suzhou, China.
+
+<div style="display:flex; flex-direction:column; gap:16px;">
+  <div style="display:flex; align-items:center; gap:14px;">
+    <img src="/images/liauto.ico" alt="Li Auto logo" style="height:40px; width:40px; border-radius:6px;">
+    <div>
+      <div style="font-weight:600;"><a href="https://www.lixiang.com/" target="_blank" rel="noopener">Li Auto</a>, Beijing, China</div>
+      <div style="font-size:0.95em; color:#5f6368;">Closed-loop RL fine-tuning for autonomous driving.</div>
+      <div style="font-size:0.9em; color:#8a8f94; font-style:italic;">2025.11 - present</div>
+    </div>
+  </div>
+  <div style="display:flex; align-items:center; gap:14px;">
+    <img src="/images/tsari.ico" alt="Tsari logo" style="height:40px; width:40px; border-radius:6px;">
+    <div>
+      <div style="font-weight:600;"><a href="https://www.tsari.tsinghua.edu.cn/" target="_blank" rel="noopener">Tsari</a>, Suzhou, China</div>
+      <div style="font-size:0.95em; color:#5f6368;">Safety-critical scenario generation for autonomous driving.</div>
+      <div style="font-size:0.9em; color:#8a8f94; font-style:italic;">2023.07 - 2023.08</div>
+    </div>
+  </div>
+</div>
 
 # 🗺️ Visitor Map
 
