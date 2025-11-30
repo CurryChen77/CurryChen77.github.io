@@ -88,13 +88,10 @@ Knowledge-Based Systems **(KBS) (SCI Q1, IF=7.4), 2023**
 
 * [Emergency Index (EI): A two-dimensional surrogate safety measure considering vehicles’ interaction depth](https://www.sciencedirect.com/science/article/pii/S0968090X24005023). Hao Cheng, Yanbo Jiang, Hailun Zhang, **Keyu Chen**, Heye Huang, Shaobing Xu, Jianqiang Wang, Sifa Zheng. **Transportation Research Part C: Emerging Technologies (2025)**
 
-  
-
 #  🚀 Project
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Github</div><img src='images/Highway-Adv.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 **Highway-Adversarial**
 
 [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/Highway-env-adversarial)  [![Stars](https://img.shields.io/github/stars/CurryChen77/Highway-env-adversarial?style=social)](https://github.com/CurryChen77/Highway-env-adversarial/stargazers)
@@ -104,13 +101,7 @@ Knowledge-Based Systems **(KBS) (SCI Q1, IF=7.4), 2023**
 </div>
 </div>
 
-# 🎖 Honors and Awards
-
-- *2023.06* Outstanding Graduate (Top 1%), NUAA.
-- *2023.06* Outstanding Bachelor Thesis Award (Top 5%), NUAA.
-- *2021.12* National Scholarship (Top 1%), NUAA. 
-
-# 📖 Educations
+# 🎓 Educations
 
 <div style="display:flex; flex-direction:column; gap:16px;">
   <div style="display:flex; align-items:center; gap:14px;">
@@ -131,8 +122,7 @@ Knowledge-Based Systems **(KBS) (SCI Q1, IF=7.4), 2023**
   </div>
 </div>
 
-
-# 💻 Internships
+# 🧑‍💻 Internships
 
 <div style="display:flex; flex-direction:column; gap:16px;">
   <div style="display:flex; align-items:center; gap:14px;">
@@ -149,6 +139,33 @@ Knowledge-Based Systems **(KBS) (SCI Q1, IF=7.4), 2023**
       <div style="font-weight:600;"><a href="https://www.tsari.tsinghua.edu.cn/" target="_blank" rel="noopener">Tsari</a>, Suzhou, China</div>
       <div style="font-size:0.95em; color:#5f6368;">Safety-critical scenario generation for autonomous driving.</div>
       <div style="font-size:0.9em; color:#8a8f94; font-style:italic;">2023.07 - 2023.08</div>
+    </div>
+  </div>
+</div>
+
+
+# 🏆 Honors and Awards
+
+<div style="display:flex; flex-direction:column; gap:16px;">
+  <div style="display:flex; gap:14px; align-items:flex-start;">
+    <div style="min-width:90px; font-weight:600; color:#8a8f94;">2023.06</div>
+    <div>
+      <div style="font-weight:600;">Outstanding Graduate (Top 1%)</div>
+      <div style="font-size:0.95em; color:#5f6368;">Nanjing University of Aeronautics and Astronautics (NUAA).</div>
+    </div>
+  </div>
+  <div style="display:flex; gap:14px; align-items:flex-start;">
+    <div style="min-width:90px; font-weight:600; color:#8a8f94;">2023.06</div>
+    <div>
+      <div style="font-weight:600;">Outstanding Bachelor Thesis Award (Top 5%)</div>
+      <div style="font-size:0.95em; color:#5f6368;">Nanjing University of Aeronautics and Astronautics (NUAA).</div>
+    </div>
+  </div>
+  <div style="display:flex; gap:14px; align-items:flex-start;">
+    <div style="min-width:90px; font-weight:600; color:#8a8f94;">2021.12</div>
+    <div>
+      <div style="font-weight:600;">National Scholarship (Top 1%)</div>
+      <div style="font-size:0.95em; color:#5f6368;">Nanjing University of Aeronautics and Astronautics (NUAA).</div>
     </div>
   </div>
 </div>
