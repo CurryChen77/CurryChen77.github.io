@@ -48,10 +48,29 @@ redirect_from:
 
 # 🔥 News
 
-* *2025.05*:  🔥 Released **RIFT**! [Check it out!](https://currychen77.github.io/RIFT/)  
-
-- *2024.09*:  🎉 **FREA** accepted by *CoRL 2024 for **<span style="color:#b31b1b">Oral (4.3%)</span>***.
-- *2023.03*:  🎉 **IGT** accepted by *Knowledge-Based Systems 2023*.
+<div style="display:flex; flex-direction:column; gap:6px;">
+  <div style="display:flex; align-items:flex-start; gap:8px;">
+    <span style="display:inline-flex; align-items:center; padding:0px 4px; background:#b31b1b; color:#fff; border-radius:5px; font-weight:700; font-size:0.95em; min-width:64px; justify-content:center;">05 / 2025</span>
+    <div style="flex:1; color:#2b2b2b;">
+      <span style="margin-right:2px;">✨</span>
+      Released <strong>RIFT</strong>! <a href="https://currychen77.github.io/RIFT/" target="_blank" rel="noopener" style="color:#b31b1b; font-weight:600;">Project page</a> is live.
+    </div>
+  </div>
+  <div style="display:flex; align-items:flex-start; gap:8px;">
+    <span style="display:inline-flex; align-items:center; padding:0px 4px; background:#b31b1b; color:#fff; border-radius:5px; font-weight:700; font-size:0.95em; min-width:64px; justify-content:center;">09 / 2024</span>
+    <div style="flex:1; color:#2b2b2b;">
+      <span style="margin-right:2px;">🏆</span>
+      <strong>FREA</strong> accepted by <em>CoRL 2024</em> for <span style="color:#b31b1b; font-weight:700;">Oral (4.3%)</span>.
+    </div>
+  </div>
+  <div style="display:flex; align-items:flex-start; gap:8px;">
+    <span style="display:inline-flex; align-items:center; padding:0px 4px; background:#b31b1b; color:#fff; border-radius:5px; font-weight:700; font-size:0.95em; min-width:64px; justify-content:center;">03 / 2023</span>
+    <div style="flex:1; color:#2b2b2b;">
+      <span style="margin-right:2px;">🏆</span>
+      <strong>IGT</strong> accepted by <em>Knowledge-Based Systems 2023</em>.
+    </div>
+  </div>
+</div>
 
 # 📝 Publications
 
@@ -114,7 +133,6 @@ Knowledge-Based Systems **(KBS) (SCI Q1, IF=7.4), 2023**
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Github</div><img src='images/Highway-Adv.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **Highway-Adversarial**
-
 [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/Highway-env-adversarial)  [![Stars](https://img.shields.io/github/stars/CurryChen77/Highway-env-adversarial?style=social)](https://github.com/CurryChen77/Highway-env-adversarial/stargazers)
 
 *We manipulate critical background vehicles in the Highway-Env to exhibit adversarial behaviors that challenge the ego vehicle, creating safety-critical scenarios.*
