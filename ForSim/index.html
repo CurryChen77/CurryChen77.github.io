@@ -1,0 +1,670 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RIFT</title>
+
+  <!-- <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet"> -->
+
+  <!-- <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script> -->
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <link rel="icon" type="image/png" href="static/images/car_icon.svg">
+
+
+
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <meta property="og:image:width" content="1600" />
+  <meta property="og:image:height" content="900" />
+
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L7VEDHS6G8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L7VEDHS6G8');
+</script>
+
+
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center">
+        <a class="navbar-item" href="https://currychen77.github.io">
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link"> More Research </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://currychen77.github.io/FREA/">
+              <b>FREA <span class="brmod" style="color:rgb(183, 0, 0)">(CoRL 2024 Oral)</span></b>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero teaser" style="margin-top: 64px;">
+    <div class="container is-max-desktop">
+        <div align="center">
+          <img src="static/images/name.png" alt="Image description" width="40%">
+        </div>  
+    </div>
+  </section>
+
+  <section class="hero">
+    <div class="hero-body no-bottom-padding">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Group-Relative RL Fine-Tuning for Realistic and Controllable Traffic Simulation</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <!-- Author Names Omitted for Anonymous Review. -->
+                <!-- <a target="_blank" href="https://shikharbahl.github.io/">Jia Zeng</a><sup>*</sup><sup>1,2</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://russellmendonca.github.io/">Qingwen Bu</a><sup>*</sup><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="http://www.lilichen.me/">Bangjun Wang</a><sup>2</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://unnat.github.io/">Unnat Jain</a><sup>1,2</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://www.cs.cmu.edu/~dpathak/">Deepak Pathak</a><sup>1</sup> -->
+                <a target="_blank" href="https://currychen77.github.io">Keyu Chen</a><sup>1</sup><sup></sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://scholar.google.com/citations?user=yd-sMoQAAAAJ&hl=zh-CN&oi=ao">Wenchao Sun</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://github.com/AutoChengh">Hao Cheng</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="http://www.svm.tsinghua.edu.cn/essay/80/1835.html">Sifa Zheng</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <br /><sup>1</sup>School of Vehicle and Mobility, Tsinghua University
+                <br>
+                <span class="brmod" style="color:rgb(183, 0, 0)"><b>arXiv 2025</b></span>
+              </span>
+            </div>
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+<!--                 <span class="link-block">
+                  <a href="https://github.com/CurryChen77"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span> -->
+
+                <!-- arXiv Link. -->
+                <span class="link-block">
+                  <a target="_blank" href="https://arxiv.org/abs/2505.03344"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Video Link. -->
+                <!-- <span class="link-block">
+                  <a target="_blank" href="https://www.youtube.com/embed/gYEEMNHo5Lc"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span> -->
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://github.com/CurryChen77/RIFT" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- <span class="link-block">
+                  <a href=""
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fa fa-database"></i>
+                    </span>
+                    <span>Dataset</span>
+                  </a>
+                </span> -->
+
+                <!-- Code Link. -->
+
+                <!-- twitter Link. -->
+                <!-- <span class="link-block">
+                  <a target="_blank" href=""
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fab fa-twitter"></i>
+                    </span>
+                    <span>Summary</span>
+                  </a>
+                </span> -->
+              </div>
+  
+            </div>
+            </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+    <!-- Teaser video-->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <!-- <h2 class="title is-3 has-text-centered" style="font-size: 1.5rem;">Data Size Recovery (<em>DSiRe</em>)</h2> -->
+        <div class="video-container">
+          <video poster="" id="tree" autoplay controls muted loop height="90%">
+          <!-- Your video here -->
+            <source src="static/videos/RIFT_small.mp4" type="video/mp4">
+          </video>
+        </div>
+  <!--       <h2 class="subtitle">
+            <p>
+              <br>we introduce a dual-stage AV-centric simulation framework that conducts open-loop imitation learning pre-training in a data-driven simulator to capture trajectory-level realism and multimodality, followed by closed-loop reinforcement learning fine-tuning in a physics-based simulator to enhance controllability and mitigate covariate shift.
+            </p>
+        </h2> -->
+      </div>
+    </div>
+  </section>
+  <!-- End teaser video -->
+
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <h2 class="subtitle">
+          <!-- Given a scene, our approach (VRB) learns  <strong> actionable representations </strong> for robot learning. VRB predicts contact points and a post-contact trajectory learned from <strong> human videos </strong>.  -->
+          we introduce a <strong>dual-stage AV-centric simulation framework</strong> that conducts <strong>imitation learning pre-training</strong> in a data-driven simulator to capture trajectory-level realism and multimodality, followed by <strong>reinforcement learning fine-tuning</strong> in a physics-based simulator to enhance controllability and mitigate covariate shift.
+        </h2>
+        <div align="center">
+          <img src="static/images/intro.png" alt="Image description" style="max-width:100%; height:auto; image-rendering: -webkit-optimize-contrast;">
+        </div>  
+        <br> 
+        <!-- <h2 class="subtitle has-text-centered"> -->
+
+        
+      </div>
+  
+    </div>
+  </section>
+
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container is-two-thirds">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-two-thirds">
+            <h2 class="title is-3">Abstract</h2>
+          </div>
+      </div>
+    
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-two-thirds ">
+          <div class="content has-text-justified">
+            Achieving both realism and controllability in closed-loop traffic simulation remains a key challenge in autonomous driving. Dataset-based methods reproduce realistic trajectories but suffer from <em>covariate shift</em> in closed-loop deployment, compounded by simplified dynamics models that further reduce reliability. Conversely, physics-based simulation methods enhance reliable and controllable closed-loop interactions but often lack expert demonstrations, compromising realism. To address these challenges, we introduce a dual-stage AV-centric simulation framework that conducts imitation learning pre-training in a data-driven simulator to capture trajectory-level realism and route-level controllability, followed by reinforcement learning fine-tuning in a physics-based simulator to enhance style-level controllability and mitigate covariate shift. In the fine-tuning stage, we propose <em><strong>RIFT</strong></em>, a novel group-relative RL fine-tuning strategy that evaluates all candidate modalities through group-relative formulation and employs a surrogate objective for stable optimization, enhancing style-level controllability and mitigating covariate shift while preserving the trajectory-level realism and route-level controllability inherited from IL pre-training. Extensive experiments demonstrate that <em><strong>RIFT</strong></em> improves realism and controllability in traffic simulation while simultaneously exposing the limitations of modern AV systems in closed-loop evaluation.
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3" style="text-align: center; padding-bottom: 10px;">
+            <img id="painting_icon" width="5%" src="static/images/framework_icon.png">
+            Model Overview
+          </h2>
+          <!-- <h2 class="subtitle is-4" style="text-align: center;">Defining Visual Affordances</h2> -->
+          <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths ">
+          <div class="content has-text-justified">
+            
+            <tr>
+              <td>
+                <div class="row">
+                  <div class="col">
+                    <img src="static/images/framework.png" alt="Image description" width="100%">
+                  </div>
+                </div>
+                <div class="columns is-centered has-text-centered">
+                  <div class="column">
+                  <div class="content has-text-justified interpolation-panel">
+                      <p style="text-align: justify;font-size: 18px"> 
+                        <strong>Overview of the <em>RIFT</em>:</strong> Building on the IL pre-trained model, <em>RIFT</em> first performs route-level interaction analysis to identify critical background vehicles and their associated reference lines, enabling the generation of realistic and multimodal trajectories. To isolate style-level controllability from the trajectory-level realism and route-level controllability established during pre-training, only the scoring head is fine-tuned via <em>RIFT</em>, with the remaining components kept frozen. Specifically, <em>RIFT</em> computes group-relative advantages over all candidate rollouts, promoting alignment with user-preferred styles and mitigating covariate shift through RL fine-tuning.</p>
+                  </div>
+                </div>
+              </div>
+              </td>
+            </tr>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <!-- <h2 class="subtitle is-4" style="text-align: center;">Defining Visual Affordances</h2> -->
+          <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths ">
+          <div class="content has-text-justified">
+
+            <h2 class="subtitle is-3" style="text-align: center;">
+              <img id="painting_icon" width="5%" src="static/images/demo.png">
+              Scenarios Demo
+            </h2>
+
+            <div class="container is-max-desktop">
+              <div class="columns is-centered">
+                <div class="column is-full-width" style="text-align: justify;">
+                  <p>
+                    The AV-centric traffic simulation consists of the autonomoud vehicle<span style="color: #FF0000; opacity: 0.6;">(AV, implemented as PDM-Lite)</span>, Critical Background Vehicles <span style="color: #9500ff; opacity: 0.6;">(CBVs)</span>, and background vehicles <span style="color: #001eff; opacity: 0.6;">(BVs)</span>, where the <span style="color: #FF0000; opacity: 0.6;">AV</span> follows a predefined global route and the <span style="color: #9500ff; opacity: 0.6;">CBVs</span> may interact with it at route level.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <img src="static/images/diverse.png" alt="Image description" width="100%">
+              </div>
+            </div>
+            <br>
+            <br>
+            <tr>
+              <td>
+                <div class="row">
+                  <div class="col">
+                    <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                      <source src="static/videos/route_33.mp4">
+                    </video>
+                    <center style="color: #555555; font-weight: bold; font-size: 1.2em;">Curved-lane Following</center>
+                    <br>
+                  </div>
+                  <div class="col">
+                    <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                      <source src="static/videos/route_53.mp4">
+                    </video>
+                    <center style="color: #555555; font-weight: bold; font-size: 1.2em;">Curved-lane Following</center>
+                    <br>
+                  </div>
+
+                </div>
+                <!-- <h2 class="subtitle is-3" style="text-align: center;"></h2> -->
+                <div class="row">
+                  <div class="col">
+                    <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                      <source src="static/videos/route_87.mp4">
+                    </video>
+                    <center style="color: #555555; font-weight: bold; font-size: 1.2em;">Intersection Navigation</center>
+                    <br>
+                  </div>
+                  <div class="col">
+                    <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                      <source src="static/videos/route_90.mp4">
+                    </video>
+                    <center style="color: #555555; font-weight: bold; font-size: 1.2em;">Intersection Navigation</center>
+                    <br>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                      <source src="static/videos/route_124.mp4">
+                    </video>
+                    <center style="color: #555555; font-weight: bold; font-size: 1.2em;">Intersection Navigation</center>
+                    <br>
+                  </div>
+                  <div class="col">
+                    <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                      <source src="static/videos/route_125.mp4">
+                    </video>
+                    <center style="color: #555555; font-weight: bold; font-size: 1.2em;">Intersection Navigation</center>
+                    <br>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                      <source src="static/videos/route_129.mp4">
+                    </video>
+                    <center style="color: #555555; font-weight: bold; font-size: 1.2em;">Intersection Navigation</center>
+                    <br>
+                  </div>
+                  <div class="col">
+                    <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                      <source src="static/videos/route_131.mp4">
+                    </video>
+                    <center style="color: #555555; font-weight: bold; font-size: 1.2em;">Intersection Navigation</center>
+                    <br>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                      <source src="static/videos/route_138.mp4">
+                    </video>
+                    <center style="color: #555555; font-weight: bold; font-size: 1.2em;">Intersection Navigation</center>
+                    <br>
+                  </div>
+                  <div class="col">
+                    <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                      <source src="static/videos/route_149.mp4">
+                    </video>
+                    <center style="color: #555555; font-weight: bold; font-size: 1.2em;">Intersection Navigation</center>
+                    <br>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                      <source src="static/videos/route_139.mp4">
+                    </video>
+                    <center style="color: #555555; font-weight: bold; font-size: 1.2em;">Straight-lane Following</center>
+                    <br>
+                  </div>
+                  <div class="col">
+                    <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                      <source src="static/videos/route_149.mp4">
+                    </video>
+                    <center style="color: #555555; font-weight: bold; font-size: 1.2em;">Straight-lane Following</center>
+                    <br>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                      <source src="static/videos/route_150.mp4">
+                    </video>
+                    <center style="color: #555555; font-weight: bold; font-size: 1.2em;">Lane Merging</center>
+                    <br>
+                  </div>
+                  <div class="col">
+                    <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                      <source src="static/videos/route_155.mp4">
+                    </video>
+                    <center style="color: #555555; font-weight: bold; font-size: 1.2em;">Lane Merging</center>
+                    <br>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                      <source src="static/videos/route_193.mp4">
+                    </video>
+                    <center style="color: #555555; font-weight: bold; font-size: 1.2em;">Intersection Navigation</center>
+                    <br>
+                  </div>
+                  <div class="col">
+                    <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                      <source src="static/videos/route_195.mp4">
+                    </video>
+                    <center style="color: #555555; font-weight: bold; font-size: 1.2em;">Intersection Navigation</center>
+                    <br>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                      <source src="static/videos/route_196.mp4">
+                    </video>
+                    <center style="color: #555555; font-weight: bold; font-size: 1.2em;">Intersection Navigation</center>
+                    <br>
+                  </div>
+                  <div class="col">
+                    <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                      <source src="static/videos/route_212.mp4">
+                    </video>
+                    <center style="color: #555555; font-weight: bold; font-size: 1.2em;">Lane Merging</center>
+                    <br>
+                  </div>
+                </div>
+              </td>
+            </tr>
+
+            <h2 class="subtitle is-3" style="text-align: center;">
+              <img id="painting_icon" width="5%" src="static/images/video.png">
+              End-to-End AV Evaluation (RIFT as <span style="color: #9500ff; opacity: 0.6;">CBVs</span>)
+            </h2>
+            <div class="row">
+              <div class="col">
+                <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                  <source src="static/videos/SparseDrive_route_86_AV.mp4">
+                </video>
+                <center style="color: #555555; font-weight: bold; font-size: 1.2em;">SparseDrive (AV View)</center>
+                <br>
+              </div>
+              <div class="col">
+                <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                  <source src="static/videos/SparseDrive_route_86_BEV.mp4">
+                </video>
+                <center style="color: #555555; font-weight: bold; font-size: 1.2em;">SparseDrive (Third person view) </center>
+                <br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                  <source src="static/videos/SparseDrive_route_106_AV.mp4">
+                </video>
+                <center style="color: #555555; font-weight: bold; font-size: 1.2em;">SparseDrive (AV View)</center>
+                <br>
+              </div>
+              <div class="col">
+                <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                  <source src="static/videos/SparseDrive_route_106_BEV.mp4">
+                </video>
+                <center style="color: #555555; font-weight: bold; font-size: 1.2em;">SparseDrive (Third person view) </center>
+                <br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                  <source src="static/videos/SparseDrive_route_114_AV.mp4">
+                </video>
+                <center style="color: #555555; font-weight: bold; font-size: 1.2em;">SparseDrive (AV View)</center>
+                <br>
+              </div>
+              <div class="col">
+                <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                  <source src="static/videos/SparseDrive_route_114_BEV.mp4">
+                </video>
+                <center style="color: #555555; font-weight: bold; font-size: 1.2em;">SparseDrive (Third person view) </center>
+                <br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                  <source src="static/videos/UniAD_route_1_AV.mp4">
+                </video>
+                <center style="color: #555555; font-weight: bold; font-size: 1.2em;">UniAD (AV View)</center>
+                <br>
+              </div>
+              <div class="col">
+                <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                  <source src="static/videos/UniAD_route_1_BEV.mp4">
+                </video>
+                <center style="color: #555555; font-weight: bold; font-size: 1.2em;">UniAD (Third person view) </center>
+                <br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                  <source src="static/videos/UniAD_route_21_AV.mp4">
+                </video>
+                <center style="color: #555555; font-weight: bold; font-size: 1.2em;">UniAD (AV View)</center>
+                <br>
+              </div>
+              <div class="col">
+                <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                  <source src="static/videos/UniAD_route_21_BEV.mp4">
+                </video>
+                <center style="color: #555555; font-weight: bold; font-size: 1.2em;">UniAD (Third person view) </center>
+                <br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                  <source src="static/videos/VAD_route_10_AV.mp4">
+                </video>
+                <center style="color: #555555; font-weight: bold; font-size: 1.2em;">VAD (AV View)</center>
+                <br>
+              </div>
+              <div class="col">
+                <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                  <source src="static/videos/VAD_route_10_BEV.mp4">
+                </video>
+                <center style="color: #555555; font-weight: bold; font-size: 1.2em;">VAD (Third person view) </center>
+                <br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                  <source src="static/videos/VAD_route_29_AV.mp4">
+                </video>
+                <center style="color: #555555; font-weight: bold; font-size: 1.2em;">VAD (AV View)</center>
+                <br>
+              </div>
+              <div class="col">
+                <video id="v2" autoplay muted loop controls playsinline style="max-width: 960px; width: 100%; height: auto; border-radius: 10px; display: block; margin: 0 auto; border: 3px solid #d3d3d3;">
+                  <source src="static/videos/VAD_route_29_BEV.mp4">
+                </video>
+                <center style="color: #555555; font-weight: bold; font-size: 1.2em;">VAD (Third person view) </center>
+                <br>
+              </div>
+            </div>
+
+            <h2 class="subtitle is-3" style="text-align: center;"> 
+              <img id="painting_icon" width="5%" src="static/images/table.png">
+              Realism and Controllability Quantitative Results
+            </h2>
+            <div align="center">
+              <img src="static/images/main_result.png" alt="Image description" width="100%">
+            </div>
+            <p>
+              <em><strong>RIFT</strong></em> consistently outperforms all baselines in both aspects across most settings. While supervised learning methods achieve slightly lower CPK and ORR, this improvement is primarily due to their inherently conservative behavior, derived from the expert PDM-Lite, which prioritizes safety by avoiding risky maneuvers.
+            </p>
+            <h2 class="subtitle is-3" style="text-align: center;">
+              <img id="painting_icon" width="5%" src="static/images/table.png">
+              AV Evaluation Results
+            </h2>
+            <div align="center">
+              <img src="static/images/eval_result.png" alt="Image description" width="100%">
+            </div>
+            <p>
+              <em><strong>RIFT</strong></em> produces realistic and well-structured scenarios that are effective at exposing the limitations of modern AV systems.
+            </p>
+            <h2 class="subtitle is-3" style="text-align: center;">
+              <img id="painting_icon" width="5%" src="static/images/driving-school.png">
+              Speed and Acceleration Realism Results
+            </h2>
+            <p>
+              <em><strong>RIFT</strong></em> demonstrates higher average speed and acceleration, indicating more interactive behavior, while maintaining realistic motion profiles.
+            </p>
+            <div align="center">
+              <img src="static/images/acc-speed.png" alt="Image description" width="100%">
+            </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="titile">BibTeX</h2>
+      If you find the project helpful for your research, please consider citing our paper:
+      <pre><code>@article{chen2025riftclosedlooprlfinetuning,
+  title={RIFT: Closed-Loop RL Fine-Tuning for Realistic and Controllable Traffic Simulation},
+  author={Keyu Chen and Wenchao Sun and Hao Cheng and Sifa Zheng},
+  journal={arXiv preprint arXiv:2505.03344},
+  year={2025}
+}</code></pre>
+    </div>
+  </section>
+  
+  <br><br><br>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <br />
+      <p> Template from <a href="https://nerfies.github.io"><span class="dnerf">Nerfies</span></a>.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
+
