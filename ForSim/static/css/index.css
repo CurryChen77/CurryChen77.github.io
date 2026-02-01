@@ -155,3 +155,26 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.is-disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.fors-card {
+  height: 100%;
+  box-shadow: 0 8px 24px rgba(10, 10, 10, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.fors-card .card-content {
+  min-height: 140px;
+}
+
+.video-caption {
+  color: #555555;
+  font-weight: bold;
+  font-size: 1.05em;
+}
