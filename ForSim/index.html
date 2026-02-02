@@ -91,41 +91,36 @@
               <span class="author-block">
                 <a target="_blank" href="https://currychen77.github.io">Keyu Chen</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
                 <a target="_blank" href="https://scholar.google.com/citations?user=yd-sMoQAAAAJ&hl=zh-CN&oi=ao">Wenchao Sun</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
-                <a target="_blank" href="https://github.com/AutoChengh">Hao Cheng</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://scholar.google.com/citations?user=kBH-iGsAAAAJ&hl=zh-CN">Hao Cheng</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://scholar.google.com/citations?hl=zh-CN&user=wDMrCnIAAAAJ">Zheng Fu</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
                 <a target="_blank" href="http://www.svm.tsinghua.edu.cn/essay/80/1835.html">Sifa Zheng</a><sup>1</sup>
                 <br />
                 <sup>1</sup>School of Vehicle and Mobility, Tsinghua University
                 <br>
-                <span class="brmod" style="color:rgb(183, 0, 0)"><b>ICRA 2026 (Under Review)</b></span>
+                <span class="brmod" style="color:rgb(183, 0, 0)"><b>ICRA 2026</b></span>
               </span>
             </div>
             <div class="column has-text-centered">
               <div class="publication-links">
+                <!-- arXiv Link. -->
                 <span class="link-block">
-                  <span class="external-link button is-normal is-rounded is-light is-disabled">
+                  <a target="_blank" href="https://arxiv.org/abs/2505.03344"
+                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
+                        <i class="ai ai-arxiv"></i>
                     </span>
-                    <span>Paper (Coming Soon)</span>
-                  </span>
+                    <span>arXiv</span>
+                  </a>
                 </span>
 
                 <span class="link-block">
-                  <span class="external-link button is-normal is-rounded is-light is-disabled">
-                    <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                    </span>
-                    <span>arXiv (Coming Soon)</span>
+                  <a href="https://currychen77.github.io/ForSim/" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
                   </span>
-                </span>
-
-                <span class="link-block">
-                  <span class="external-link button is-normal is-rounded is-light is-disabled">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code (Coming Soon)</span>
-                  </span>
+                  <span>Code(Coming Soon)</span>
+                  </a>
                 </span>
               </div>
 
@@ -139,24 +134,21 @@
 
   <section class="hero teaser">
     <div class="container is-max-desktop">
-      <div class="hero-body">
-        <div class="video-container">
-          <video poster="" id="forsim-teaser" autoplay controls muted loop height="90%">
-            <source src="static/videos/route_87.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="hero teaser">
-    <div class="container is-max-desktop">
-      <div class="hero-body">
-        <h2 class="subtitle">
+      <div class="hero-body has-text-centered">
+        <h2 class="subtitle" style="text-align: center;">
           ForSim is a forward-simulation framework designed to synthesize realistic, interactive traffic scenarios for closed-loop AV evaluation. It decouples scene rollout from trajectory alignment, enabling controllable yet natural interactions across diverse map topologies.
         </h2>
-        <div align="center">
-          <img src="static/images/intro.png" alt="ForSim overview" style="max-width:100%; height:auto; image-rendering: -webkit-optimize-contrast;">
+        <div class="columns is-variable is-5 is-vcentered teaser-images">
+          <div class="column is-half">
+            <figure class="image">
+              <img src="static/images/intro-0.png" alt="ForSim intro overview">
+            </figure>
+          </div>
+          <div class="column is-half">
+            <figure class="image">
+              <img src="static/images/intro-1.png" alt="ForSim trajectory alignment">
+            </figure>
+          </div>
         </div>
       </div>
     </div>
@@ -174,7 +166,7 @@
         <div class="columns is-centered has-text-centered">
           <div class="column is-two-thirds ">
             <div class="content has-text-justified">
-              Closed-loop traffic simulation requires realistic interactions while preserving controllability for evaluation. ForSim introduces a forward rollout that proposes candidate trajectories, followed by a trajectory-alignment stage that reconciles inter-agent consistency. This two-stage formulation enables scalable scenario generation, stable interaction dynamics, and faithful reproduction of long-horizon behaviors for AV benchmarking.
+              As the foundation of closed-loop training and evaluation in autonomous driving, traffic simulation still faces two fundamental challenges: covariate shift introduced by open-loop imitation learning and limited capacity to reflect the multimodal behaviors observed in real-world traffic. Although recent frameworks such as RIFT have partially addressed these issues through group-relative optimization, their forward simulation procedures remain largely non-reactive, leading to unrealistic agent interactions within the virtual domain and ultimately limiting simulation fidelity. To address these issues, we propose ForSim, a stepwise closed-loop forward simulation paradigm. At each virtual timestep, the traffic agent propagates the virtual candidate trajectory that best spatiotemporally matches the reference trajectory through physically grounded motion dynamics, thereby preserving multimodal behavioral diversity while ensuring intra-modality consistency. Other agents are updated with stepwise predictions, yielding coherent and interaction-aware evolution. When incorporated into the RIFT traffic simulation framework, ForSim operates in conjunction with group-relative optimization to fine-tune traffic policy. Extensive experiments confirm that this integration consistently improves safety while maintaining efficiency, realism, and comfort. These results underscore the importance of modeling closed-loop multimodal interactions within forward simulation and enhance the fidelity and reliability of traffic simulation for autonomous driving.
             </div>
           </div>
         </div>
@@ -190,52 +182,36 @@
             <img id="painting_icon" width="5%" src="static/images/framework_icon.png">
             Method Overview
           </h2>
-          <div class="columns is-centered has-text-centered">
-            <div class="column is-four-fifths ">
-              <div class="content has-text-justified">
-                <div class="columns is-multiline">
-                  <div class="column is-one-third">
-                    <div class="card fors-card">
-                      <div class="card-image">
-                        <figure class="image">
-                          <img src="static/images/basic-rollout.png" alt="Basic rollout">
-                        </figure>
+          <div class="columns is-centered">
+            <div class="column is-four-fifths">
+              <div class="content">
+                <div class="method-list">
+                  <div class="card fors-card method-card">
+                    <div class="card-content method-card-body">
+                      <div class="method-image-wrap">
+                        <img src="static/images/basic-rollout.png" alt="Basic rollout">
                       </div>
-                      <div class="card-content">
-                        <p class="title is-6">Basic Rollout</p>
-                        <p class="content">Predict multi-agent rollouts with open-loop dynamics as an initial proposal set.</p>
+                      <div class="method-text">
+                        <p class="title is-4">Basic Rollout</p>
+                        <p class="subtitle is-6">Predict multi-agent rollouts with open-loop dynamics as an initial proposal set.</p>
                       </div>
                     </div>
                   </div>
-                  <div class="column is-one-third">
-                    <div class="card fors-card">
-                      <div class="card-image">
-                        <figure class="image">
-                          <img src="static/images/step-rollout.png" alt="Step rollout">
-                        </figure>
+
+                  <div class="card fors-card method-card">
+                    <div class="card-content method-card-body">
+                      <div class="method-image-wrap">
+                        <img src="static/images/step-rollout.png" alt="Step rollout">
                       </div>
-                      <div class="card-content">
-                        <p class="title is-6">Step Rollout</p>
-                        <p class="content">Refine agent states step-by-step to capture short-horizon interaction cues.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="column is-one-third">
-                    <div class="card fors-card">
-                      <div class="card-image">
-                        <figure class="image">
-                          <img src="static/images/traj-align-step-rollout.png" alt="Trajectory aligned rollout">
-                        </figure>
-                      </div>
-                      <div class="card-content">
-                        <p class="title is-6">Trajectory Alignment</p>
-                        <p class="content">Align candidate trajectories to enforce multi-agent consistency and realism.</p>
+                      <div class="method-text">
+                        <p class="title is-4">Step Rollout</p>
+                        <p class="subtitle is-6">Refine agent states step-by-step to capture short-horizon interaction cues.</p>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div align="center">
-                  <img src="static/images/rollout.png" alt="ForSim pipeline" width="100%">
+
+                <div class="method-pipeline">
+                  <img src="static/images/rollout.png" alt="ForSim pipeline">
                 </div>
               </div>
             </div>
