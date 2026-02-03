@@ -52,6 +52,13 @@ redirect_from:
   <div style="display:flex; align-items:flex-start; gap:8px;">
     <span style="display:inline-flex; align-items:center; padding:0px 4px; background:#b31b1b; color:#fff; border-radius:5px; font-weight:700; font-size:0.95em; min-width:64px; justify-content:center;">05 / 2025</span>
     <div style="flex:1; color:#2b2b2b;">
+      <span style="margin-right:2px;">🏆</span>
+      <strong>ForSim</strong> accepted by <em>ICRA 2026</em>.
+    </div>
+  </div>
+  <div style="display:flex; align-items:flex-start; gap:8px;">
+    <span style="display:inline-flex; align-items:center; padding:0px 4px; background:#b31b1b; color:#fff; border-radius:5px; font-weight:700; font-size:0.95em; min-width:64px; justify-content:center;">05 / 2025</span>
+    <div style="flex:1; color:#2b2b2b;">
       <span style="margin-right:2px;">✨</span>
       Released <strong>RIFT</strong>! <a href="https://currychen77.github.io/RIFT/" target="_blank" rel="noopener" style="color:#b31b1b; font-weight:600;">Project page</a> is live.
     </div>
@@ -76,12 +83,26 @@ redirect_from:
 
 ## 🔆 Select Publications
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2026</div><img src='images/ForSim.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+**ForSim: Stepwise Forward Simulation for Traffic Policy Fine-Tuning**
+
+**Keyu Chen**, Wenchao Sun, Hao Cheng, Zheng Fu, Sifa Zheng
+
+**ICRA 2026**
+
+[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2602.01916)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/ForSim/)
+
+*ForSim achieves high-fidelity traffic simulation by combining stepwise closed-loop trajectory propagation with physical dynamics for multimodal diversity and interaction-aware agent updates for realistic behavioral consistency.*
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/RIFT.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **RIFT: Group-Relative RL Fine-Tuning for Realistic and Controllable Traffic Simulation**
 
-
-**Keyu Chen**,Wenchao Sun, Hao Cheng, Sifa Zheng
+**Keyu Chen**, Wenchao Sun, Hao Cheng, Sifa Zheng
 
 **arXiv 2025**
 
