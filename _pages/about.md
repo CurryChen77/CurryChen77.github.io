@@ -82,7 +82,6 @@ redirect_from:
 # 📝 Publications
 
 ## 🔆 Select Publications
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2026</div><img src='images/ForSim.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **ForSim: Stepwise Forward Simulation for Traffic Policy Fine-Tuning**
@@ -150,7 +149,6 @@ Knowledge-Based Systems **(KBS) (SCI Q1, IF=7.4), 2023**
 * [Emergency Index (EI): A two-dimensional surrogate safety measure considering vehicles’ interaction depth](https://www.sciencedirect.com/science/article/pii/S0968090X24005023). Hao Cheng, Yanbo Jiang, Hailun Zhang, **Keyu Chen**, Heye Huang, Shaobing Xu, Jianqiang Wang, Sifa Zheng. **Transportation Research Part C: Emerging Technologies (2025)**
 
 #  🚀 Project
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Github</div><img src='images/Highway-Adv.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **Highway-Adversarial**
@@ -182,7 +180,6 @@ Knowledge-Based Systems **(KBS) (SCI Q1, IF=7.4), 2023**
     </div>
   </div>
 </div>
-
 
 # 🏆 Honors and Awards
 
