@@ -50,7 +50,7 @@ redirect_from:
 
 <div style="display:flex; flex-direction:column; gap:6px;">
   <div style="display:flex; align-items:flex-start; gap:8px;">
-    <span style="display:inline-flex; align-items:center; padding:0px 4px; background:#b31b1b; color:#fff; border-radius:5px; font-weight:700; font-size:0.95em; min-width:64px; justify-content:center;">05 / 2025</span>
+    <span style="display:inline-flex; align-items:center; padding:0px 4px; background:#b31b1b; color:#fff; border-radius:5px; font-weight:700; font-size:0.95em; min-width:64px; justify-content:center;">01 / 2026</span>
     <div style="flex:1; color:#2b2b2b;">
       <span style="margin-right:2px;">🏆</span>
       <strong>ForSim</strong> accepted by <em>ICRA 2026</em>.
