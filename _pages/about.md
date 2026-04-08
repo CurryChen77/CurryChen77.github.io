@@ -144,9 +144,54 @@ Knowledge-Based Systems **(KBS) (SCI Q1, IF=7.4), 2023**
 
 ## 📚 All Publications
 
-* [DriveCamSim: Generalizable Camera Simulation via Explicit Camera Modeling for Autonomous Driving](https://arxiv.org/abs/2505.19692). Wenchao Sun, Xuewu Lin, **Keyu Chen**, Zixiang Pei, Yining Shi, Chuang Zhang, Sifa Zheng. **arXiv (2025)**
+<div style="margin:-2px 0 18px 0; padding:12px 16px; border-left:4px solid #b31b1b; background:linear-gradient(90deg, rgba(179,27,27,0.06), rgba(179,27,27,0.01)); border-radius:10px; color:#4a4f55;">
+  A complete publication list in a unified visual layout, spanning autonomous driving simulation, planning, and traffic safety analysis.
+</div>
 
-* [Emergency Index (EI): A two-dimensional surrogate safety measure considering vehicles’ interaction depth](https://www.sciencedirect.com/science/article/pii/S0968090X24005023). Hao Cheng, Yanbo Jiang, Hailun Zhang, **Keyu Chen**, Heye Huang, Shaobing Xu, Jianqiang Wang, Sifa Zheng. **Transportation Research Part C: Emerging Technologies (2025)**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/SparseDriveV2.png' alt="SparseDriveV2 teaser" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+**SparseDriveV2: Scoring is All You Need for End-to-End Autonomous Driving**
+
+Wenchao Sun, Xuewu Lin, **Keyu Chen**, Zixiang Pei, Xiang Li, Yining Shi, Sifa Zheng
+
+**arXiv 2026**
+
+[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2603.29163)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/swc-17/SparseDriveV2)  [![Stars](https://img.shields.io/github/stars/swc-17/SparseDriveV2?style=social)](https://github.com/swc-17/SparseDriveV2/stargazers)
+
+*SparseDriveV2 pushes scoring-based autonomous driving forward with a scalable factorized trajectory vocabulary and coarse-to-fine scoring for dense yet efficient planning.*
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/DriveCamSim.png' alt="DriveCamSim teaser" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+**DriveCamSim: Generalizable Camera Simulation via Explicit Camera Modeling for Autonomous Driving**
+
+Wenchao Sun, Xuewu Lin, **Keyu Chen**, Zixiang Pei, Yining Shi, Chuang Zhang, Sifa Zheng
+
+**arXiv 2025**
+
+[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2505.19692)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/swc-17/DriveCamSim)  [![Stars](https://img.shields.io/github/stars/swc-17/DriveCamSim?style=social)](https://github.com/swc-17/DriveCamSim/stargazers)
+
+*DriveCamSim introduces explicit camera modeling to generate controllable multi-view, multi-frame driving imagery that generalizes across camera parameters and frame rates.*
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TRC 2025</div><img src='images/EI.png' alt="Emergency Index teaser" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+**Emergency Index (EI): A two-dimensional surrogate safety measure considering vehicles’ interaction depth**
+
+Hao Cheng, Yanbo Jiang, Hailun Zhang, **Keyu Chen**, Heye Huang, Shaobing Xu, Jianqiang Wang, Sifa Zheng
+
+Transportation Research Part C: Emerging Technologies **(TRC), 2025**
+
+[![Custom badge](https://img.shields.io/badge/Elsevier-Paper-b31b1b?logo=Elsevier&logoColor=white?style=flat-square)](https://www.sciencedirect.com/science/article/pii/S0968090X24005023)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/AutoChengh/EmergencyIndex)  [![Stars](https://img.shields.io/github/stars/AutoChengh/EmergencyIndex?style=social)](https://github.com/AutoChengh/EmergencyIndex/stargazers)
+
+*EI provides a two-dimensional surrogate safety measure that models interaction depth and evasive urgency for more faithful traffic conflict assessment.*
+
+</div>
+</div>
 
 #  🚀 Project
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Github</div><img src='images/Highway-Adv.gif' alt="sym" width="100%"></div></div>
