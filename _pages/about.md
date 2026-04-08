@@ -144,9 +144,6 @@ Knowledge-Based Systems **(KBS) (SCI Q1, IF=7.4), 2023**
 
 ## 📚 All Publications
 
-<div style="margin:-2px 0 18px 0; padding:12px 16px; border-left:4px solid #b31b1b; background:linear-gradient(90deg, rgba(179,27,27,0.06), rgba(179,27,27,0.01)); border-radius:10px; color:#4a4f55;">
-  A complete publication list in a unified visual layout, spanning autonomous driving simulation, planning, and traffic safety analysis.
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/SparseDriveV2.png' alt="SparseDriveV2 teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
