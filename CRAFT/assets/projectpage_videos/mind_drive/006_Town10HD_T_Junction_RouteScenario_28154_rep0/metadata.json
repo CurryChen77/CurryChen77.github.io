@@ -1,0 +1,79 @@
+{
+  "algorithm": "mind_drive",
+  "seed": 7,
+  "dataset": "bench2drive220x1",
+  "route_id": "RouteScenario_28154_rep0",
+  "town_name": "Town10HD",
+  "scenario_name": "T_Junction",
+  "weather_id": "6",
+  "pretrained": {
+    "status": "Completed",
+    "score_route": 100,
+    "score_penalty": 0.898799,
+    "score_composed": 89.879921,
+    "num_infractions": 1,
+    "save_name": "RouteScenario_28154_rep0_Town10HD_T_Junction_6_04_14_11_31_25",
+    "infractions": {
+      "collisions_layout": [],
+      "collisions_pedestrian": [],
+      "collisions_vehicle": [],
+      "red_light": [],
+      "stop_infraction": [],
+      "outside_route_lanes": [
+        "Agent went outside its route lanes for about 15.516 meters (10.12% of the completed route)"
+      ],
+      "yield_emergency_vehicle_infractions": [],
+      "scenario_timeouts": [],
+      "route_dev": [],
+      "vehicle_blocked": [],
+      "route_timeout": []
+    }
+  },
+  "craft_finetuner": {
+    "status": "Perfect",
+    "score_route": 100,
+    "score_penalty": 1.0,
+    "score_composed": 100.0,
+    "num_infractions": 0,
+    "save_name": "RouteScenario_28154_rep0_Town10HD_T_Junction_6_04_13_23_43_44",
+    "infractions": {
+      "collisions_layout": [],
+      "collisions_pedestrian": [],
+      "collisions_vehicle": [],
+      "red_light": [],
+      "stop_infraction": [],
+      "outside_route_lanes": [],
+      "yield_emergency_vehicle_infractions": [],
+      "scenario_timeouts": [],
+      "route_dev": [],
+      "vehicle_blocked": [],
+      "route_timeout": []
+    }
+  },
+  "videos": [
+    {
+      "model": "pretrained",
+      "view": "e2e_av",
+      "source": "log/eval/mind_drive-scenario-seed7/bench2drive220x1-pretrained/worker_1/Town10HD/e2e_av/RouteScenario_28154_rep_0.mp4",
+      "path": "log/video/mind_drive/006_Town10HD_T_Junction_RouteScenario_28154_rep0/pretrained/e2e_av.mp4"
+    },
+    {
+      "model": "pretrained",
+      "view": "scenario_view",
+      "source": "log/eval/mind_drive-scenario-seed7/bench2drive220x1-pretrained/worker_1/Town10HD/videos/RouteScenario_28154_rep_0.mp4",
+      "path": "log/video/mind_drive/006_Town10HD_T_Junction_RouteScenario_28154_rep0/pretrained/scenario_view.mp4"
+    },
+    {
+      "model": "craft_finetuner",
+      "view": "e2e_av",
+      "source": "log/eval/mind_drive-scenario-seed7/bench2drive220x1-craft_finetuner/worker_1/Town10HD/e2e_av/RouteScenario_28154_rep_0.mp4",
+      "path": "log/video/mind_drive/006_Town10HD_T_Junction_RouteScenario_28154_rep0/craft_finetuner/e2e_av.mp4"
+    },
+    {
+      "model": "craft_finetuner",
+      "view": "scenario_view",
+      "source": "log/eval/mind_drive-scenario-seed7/bench2drive220x1-craft_finetuner/worker_1/Town10HD/videos/RouteScenario_28154_rep_0.mp4",
+      "path": "log/video/mind_drive/006_Town10HD_T_Junction_RouteScenario_28154_rep0/craft_finetuner/scenario_view.mp4"
+    }
+  ]
+}

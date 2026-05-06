@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CRAFT | Counterfactual-to-Interactive Reinforcement Fine-Tuning</title>
+    <meta name="description" content="Project page for CRAFT, a proxy-residual reinforcement fine-tuning framework for closed-loop autonomous driving.">
+    <link rel="stylesheet" href="./assets/styles.css">
+  </head>
+  <body data-version="public">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="research-navbar" aria-label="Research navigation">
+          <a class="research-home" href="https://currychen77.github.io">Home</a>
+          <div class="research-dropdown">
+            <button class="research-trigger" type="button" aria-haspopup="true">More Research</button>
+            <div class="research-menu">
+              <a href="https://currychen77.github.io/FREA/">FREA <span>(CoRL 2024 Oral)</span></a>
+              <a href="https://currychen77.github.io/RIFT/">RIFT <span>(arXiv 2025)</span></a>
+              <a href="https://currychen77.github.io/ForSim/">ForSim <span>(ICRA 2026)</span></a>
+            </div>
+          </div>
+        </div>
+        <nav class="nav" aria-label="Page sections">
+          <a href="#overview">Overview</a>
+          <a href="#method">Method</a>
+          <a href="#videos">Visual Results</a>
+          <a href="#analysis">Analysis</a>
+          <a href="#citation">Citation</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="title">
+        <h1 id="title">CRAFT</h1>
+        <p class="subtitle">Counterfactual-to-Interactive Reinforcement Fine-Tuning for Driving Policies.</p>
+        <div class="authors" aria-label="Authors">
+          <p>
+            <a href="https://currychen77.github.io/">Keyu Chen</a><sup>1</sup>
+            <span>·</span>
+            <a href="https://scholar.google.com/citations?user=Jo7TvUMAAAAJ&hl=zh-CN">Nanfei Ye</a><sup>2</sup>
+            <span>·</span>
+            <a href="https://wangyida.github.io/">Yida Wang</a><sup>2</sup>
+            <span>·</span>
+            <a href="https://scholar.google.com/citations?user=yd-sMoQAAAAJ&hl=zh-CN&oi=ao">Wenchao Sun</a><sup>1</sup>
+            <span>·</span>
+            <a href="https://scholar.google.com.hk/citations?user=n-iGIBkAAAAJ&hl=zh-CN">Danqi Zhao</a><sup>1</sup>
+            <span>·</span>
+            <a href="https://github.com/AutoChengh">Hao Cheng</a><sup>1</sup>
+            <span>·</span>
+            <a href="http://www.svm.tsinghua.edu.cn/essay/80/1835.html">Sifa Zheng</a><sup>1</sup>
+          </p>
+          <p class="affiliations"><sup>1</sup>School of Vehicle and Mobility, Tsinghua University · <sup>2</sup>Li Auto Inc</p>
+        </div>
+        <div class="actions">
+          <a class="button" href="#">arXiv</a>
+          <a class="button secondary" href="#">Code</a>
+        </div>
+        <div class="hero-video">
+          <video controls muted autoplay loop playsinline src="./assets/projectpage_videos/sparsedrive_scorer/019_Town12_CrossingBicycleFlow_RouteScenario_3099_rep0/craft_finetuner/e2e_av.mp4"></video>
+          <div class="caption">CRAFT result on a safety-critical Crossing Bicycle Flow scenario. The full gallery below compares pre-trained and CRAFT-fine-tuned behavior side by side.</div>
+        </div>
+      </section>
+
+      <section class="section" id="overview">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Overview</p>
+            <h2>Dense counterfactual proxy, grounded residual correction.</h2>
+          </div>
+          <p class="lead">Open-loop supervised driving policies can look strong near expert states but fail once their own actions shift future observations. CRAFT closes this gap without changing the base architecture.</p>
+        </div>
+        <div class="overview-grid">
+          <div class="stat"><strong>3</strong><span>policy families: hierarchical planning, vision-language-action, and vocabulary scoring</span></div>
+          <div class="stat"><strong data-stat="comparison-count">24</strong><span>representative before/after closed-loop video comparisons</span></div>
+          <div class="stat"><strong>100</strong><span>CRAFT score on every selected qualitative comparison</span></div>
+        </div>
+        <div class="figure">
+          <img src="./assets/intro.png" alt="CRAFT proxy-residual motivation">
+          <div class="caption">CRAFT treats counterfactual feedback as a dense proxy and closed-loop interaction as grounded residual correction.</div>
+        </div>
+      </section>
+
+      <section class="section" id="method">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Method</p>
+            <h2>A proxy-residual recipe for closed-loop post-training.</h2>
+          </div>
+          <p class="lead">The framework assigns distinct statistical roles to local counterfactual evaluation and real interaction, then regularizes adaptation toward reliable pre-trained behavior.</p>
+        </div>
+        <div class="method-steps">
+          <article class="method-step">
+            <div class="step-index">01</div>
+            <h3>Dense counterfactual proxy</h3>
+            <p>For each on-policy state, candidate trajectories are scored for efficiency, safety, and rule compliance, then converted into group-normalized advantages.</p>
+          </article>
+          <article class="method-step">
+            <div class="step-index">02</div>
+            <h3>Grounded residual correction</h3>
+            <p>Executed rollouts supply event-driven rewards that correct proxy errors exposed by closed-loop interaction, using a value-free dual-clipped update.</p>
+          </article>
+          <article class="method-step">
+            <div class="step-index">03</div>
+            <h3>On-policy self-distillation</h3>
+            <p>An exponential moving-average teacher initialized from the pre-trained checkpoint keeps adaptation close to reliable behavior while allowing corrective shifts.</p>
+          </article>
+        </div>
+        <div class="figure">
+          <img src="./assets/teaser.png" alt="CRAFT framework overview">
+          <div class="caption">CRAFT combines trajectory-level counterfactual supervision, closed-loop residual feedback, and asymmetric KL self-distillation.</div>
+        </div>
+      </section>
+
+      <section class="section" id="videos">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Visual Results</p>
+            <h2>Visualization Before and After CRAFT Fine-Tuning.</h2>
+          </div>
+          <p class="lead">Select an algorithm and scenario to compare the same ego-view rollout before and after CRAFT. The two videos auto-play, wait for both videos to finish, then restart together.</p>
+        </div>
+        <div class="comparison-shell">
+          <div class="comparison-controls">
+            <div class="tabs" role="tablist" aria-label="Algorithms"></div>
+            <select class="scenario-select" aria-label="Scenario"></select>
+          </div>
+          <div class="scenario-panel">
+            <div class="scenario-head">
+              <div>
+                <p class="scenario-kicker">Loading</p>
+                <h3 class="scenario-title">Loading scenario</h3>
+                <p class="caption scenario-route"></p>
+              </div>
+              <div class="score-pill">Driving score</div>
+            </div>
+            <div class="video-grid">
+              <div class="video-cell">
+                <div class="video-label"><span>Pre-trained</span><span class="pretrained-status"></span></div>
+                <video class="pretrained-video" data-role="pretrained" controls muted autoplay playsinline></video>
+              </div>
+              <div class="video-cell">
+                <div class="video-label"><span>CRAFT fine-tuned</span><span class="craft-status"></span></div>
+                <video class="craft-video" data-role="craft" controls muted autoplay playsinline></video>
+              </div>
+            </div>
+            <p class="compare-note">Videos are stacked vertically. If one video is shorter, it waits at the end until both videos finish, then both restart from the beginning.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="analysis">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Empirical Picture</p>
+            <h2>CRAFT improves interaction-sensitive driving skills.</h2>
+          </div>
+          <p class="lead">The paper reports consistent gains over the pre-trained policies on the full Bench2Drive closed-loop benchmark. The cards below summarize the main-table Driving Score and Success Rate improvements.</p>
+        </div>
+        <div class="gallery-grid"></div>
+        <div class="asset-grid">
+          <div class="figure">
+            <img src="./assets/ego_ability_radar.png" alt="Fine-grained ability radar plots">
+            <div class="caption">Fine-grained ability profiles across representative driving policies.</div>
+          </div>
+          <div class="figure">
+            <img src="./assets/stopsign_scaling_reward_combo.png" alt="Scaling and reward dynamics">
+            <div class="caption">Scaling behavior and reward dynamics show more consistent gains as fine-tuning data increases.</div>
+          </div>
+          <div class="figure">
+            <img src="./assets/train_stability.png" alt="Training stability analysis">
+            <div class="caption">Training stability improves through broader proxy signal and dual-clipped residual correction.</div>
+          </div>
+          <article class="insight">
+            <div class="metric">Proxy + Residual</div>
+            <h3>Division of labor</h3>
+            <p>The counterfactual proxy provides broad optimization signal, while grounded residual feedback supplies the missing correction for interaction-dependent failures. Self-distillation stabilizes the shift around the pre-trained policy manifold.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="citation">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Citation</p>
+            <h2>Reference</h2>
+          </div>
+          <p class="lead">Citation information will be updated when the public paper record is available.</p>
+        </div>
+        <div class="citation-box">
+<pre>@misc{craft2026,
+  title     = {CRAFT: Counterfactual-to-Interactive Reinforcement Fine-Tuning for Closed-Loop Autonomous Driving},
+  author    = {Keyu Chen and Nanfei Ye and Yida Wang and Wenchao Sun and Danqi Zhao and Hao Cheng and Sifa Zheng},
+  year      = {2026}
+}</pre>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">Project page for CRAFT.</footer>
+    <script src="./assets/manifest.js"></script>
+    <script src="./assets/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+{
+  "algorithm": "mind_drive",
+  "seed": 7,
+  "dataset": "bench2drive220x1",
+  "route_id": "RouteScenario_24092_rep0",
+  "town_name": "Town13",
+  "scenario_name": "MergerIntoSlowTrafficV2",
+  "weather_id": "26",
+  "pretrained": {
+    "status": "Failed",
+    "score_route": 76.82,
+    "score_penalty": 0.6,
+    "score_composed": 46.092,
+    "num_infractions": 1,
+    "save_name": "RouteScenario_24092_rep0_Town13_MergerIntoSlowTrafficV2_26_04_14_16_02_30",
+    "infractions": {
+      "collisions_layout": [],
+      "collisions_pedestrian": [],
+      "collisions_vehicle": [
+        "Agent collided against object with type=vehicle.dodge.charger_2020 and id=13603 at (x=-5744.288, y=4719.541, z=186.865)"
+      ],
+      "red_light": [],
+      "stop_infraction": [],
+      "outside_route_lanes": [],
+      "yield_emergency_vehicle_infractions": [],
+      "scenario_timeouts": [],
+      "route_dev": [],
+      "vehicle_blocked": [],
+      "route_timeout": []
+    }
+  },
+  "craft_finetuner": {
+    "status": "Perfect",
+    "score_route": 100,
+    "score_penalty": 1.0,
+    "score_composed": 100.0,
+    "num_infractions": 0,
+    "save_name": "RouteScenario_24092_rep0_Town13_MergerIntoSlowTrafficV2_26_04_14_03_59_49",
+    "infractions": {
+      "collisions_layout": [],
+      "collisions_pedestrian": [],
+      "collisions_vehicle": [],
+      "red_light": [],
+      "stop_infraction": [],
+      "outside_route_lanes": [],
+      "yield_emergency_vehicle_infractions": [],
+      "scenario_timeouts": [],
+      "route_dev": [],
+      "vehicle_blocked": [],
+      "route_timeout": []
+    }
+  },
+  "videos": [
+    {
+      "model": "pretrained",
+      "view": "e2e_av",
+      "source": "log/eval/mind_drive-scenario-seed7/bench2drive220x1-pretrained/worker_0/Town13/e2e_av/RouteScenario_24092_rep_0.mp4",
+      "path": "log/video/mind_drive/004_Town13_MergerIntoSlowTrafficV2_RouteScenario_24092_rep0/pretrained/e2e_av.mp4"
+    },
+    {
+      "model": "pretrained",
+      "view": "scenario_view",
+      "source": "log/eval/mind_drive-scenario-seed7/bench2drive220x1-pretrained/worker_0/Town13/videos/RouteScenario_24092_rep_0.mp4",
+      "path": "log/video/mind_drive/004_Town13_MergerIntoSlowTrafficV2_RouteScenario_24092_rep0/pretrained/scenario_view.mp4"
+    },
+    {
+      "model": "craft_finetuner",
+      "view": "e2e_av",
+      "source": "log/eval/mind_drive-scenario-seed7/bench2drive220x1-craft_finetuner/worker_0/Town13/e2e_av/RouteScenario_24092_rep_0.mp4",
+      "path": "log/video/mind_drive/004_Town13_MergerIntoSlowTrafficV2_RouteScenario_24092_rep0/craft_finetuner/e2e_av.mp4"
+    },
+    {
+      "model": "craft_finetuner",
+      "view": "scenario_view",
+      "source": "log/eval/mind_drive-scenario-seed7/bench2drive220x1-craft_finetuner/worker_0/Town13/videos/RouteScenario_24092_rep_0.mp4",
+      "path": "log/video/mind_drive/004_Town13_MergerIntoSlowTrafficV2_RouteScenario_24092_rep0/craft_finetuner/scenario_view.mp4"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "algorithm": "mind_drive",
+  "seed": 7,
+  "dataset": "bench2drive220x1",
+  "route_id": "RouteScenario_2086_rep0",
+  "town_name": "Town12",
+  "scenario_name": "NonSignalizedJunctionLeftTurn",
+  "weather_id": "0",
+  "pretrained": {
+    "status": "Failed",
+    "score_route": 45.81,
+    "score_penalty": 0.6,
+    "score_composed": 27.486,
+    "num_infractions": 1,
+    "save_name": "RouteScenario_2086_rep0_Town12_NonSignalizedJunctionLeftTurn_0_04_14_12_10_32",
+    "infractions": {
+      "collisions_layout": [],
+      "collisions_pedestrian": [],
+      "collisions_vehicle": [
+        "Agent collided against object with type=vehicle.nissan.patrol_2021 and id=7103 at (x=493.615, y=5841.133, z=365.188)"
+      ],
+      "red_light": [],
+      "stop_infraction": [],
+      "outside_route_lanes": [],
+      "yield_emergency_vehicle_infractions": [],
+      "scenario_timeouts": [],
+      "route_dev": [],
+      "vehicle_blocked": [],
+      "route_timeout": []
+    }
+  },
+  "craft_finetuner": {
+    "status": "Perfect",
+    "score_route": 100,
+    "score_penalty": 1.0,
+    "score_composed": 100.0,
+    "num_infractions": 0,
+    "save_name": "RouteScenario_2086_rep0_Town12_NonSignalizedJunctionLeftTurn_0_04_14_00_27_47",
+    "infractions": {
+      "collisions_layout": [],
+      "collisions_pedestrian": [],
+      "collisions_vehicle": [],
+      "red_light": [],
+      "stop_infraction": [],
+      "outside_route_lanes": [],
+      "yield_emergency_vehicle_infractions": [],
+      "scenario_timeouts": [],
+      "route_dev": [],
+      "vehicle_blocked": [],
+      "route_timeout": []
+    }
+  },
+  "videos": [
+    {
+      "model": "pretrained",
+      "view": "e2e_av",
+      "source": "log/eval/mind_drive-scenario-seed7/bench2drive220x1-pretrained/worker_0/Town12/e2e_av/RouteScenario_2086_rep_0.mp4",
+      "path": "log/video/mind_drive/001_Town12_NonSignalizedJunctionLeftTurn_RouteScenario_2086_rep0/pretrained/e2e_av.mp4"
+    },
+    {
+      "model": "pretrained",
+      "view": "scenario_view",
+      "source": "log/eval/mind_drive-scenario-seed7/bench2drive220x1-pretrained/worker_0/Town12/videos/RouteScenario_2086_rep_0.mp4",
+      "path": "log/video/mind_drive/001_Town12_NonSignalizedJunctionLeftTurn_RouteScenario_2086_rep0/pretrained/scenario_view.mp4"
+    },
+    {
+      "model": "craft_finetuner",
+      "view": "e2e_av",
+      "source": "log/eval/mind_drive-scenario-seed7/bench2drive220x1-craft_finetuner/worker_0/Town12/e2e_av/RouteScenario_2086_rep_0.mp4",
+      "path": "log/video/mind_drive/001_Town12_NonSignalizedJunctionLeftTurn_RouteScenario_2086_rep0/craft_finetuner/e2e_av.mp4"
+    },
+    {
+      "model": "craft_finetuner",
+      "view": "scenario_view",
+      "source": "log/eval/mind_drive-scenario-seed7/bench2drive220x1-craft_finetuner/worker_0/Town12/videos/RouteScenario_2086_rep_0.mp4",
+      "path": "log/video/mind_drive/001_Town12_NonSignalizedJunctionLeftTurn_RouteScenario_2086_rep0/craft_finetuner/scenario_view.mp4"
+    }
+  ]
+}
