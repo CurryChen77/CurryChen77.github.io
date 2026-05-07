@@ -100,7 +100,7 @@ redirect_from:
 
 [![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](http://arxiv.org/abs/2605.04470)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/CRAFT/)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/CraftPolicy)
 
-*CRAFT closes the open-to-closed-loop gap for autonomous driving policies by combining dense counterfactual proxy supervision, grounded residual correction, and on-policy self-distillation.*
+*CRAFT improves driving policies by combining dense counterfactual proxy supervision with residual correction from true closed-loop interaction.*
 
 </div>
 </div>
