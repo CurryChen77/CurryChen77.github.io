@@ -89,9 +89,10 @@ redirect_from:
 # 📝 Publications
 
 ## 🔆 Select Publications
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='CRAFT/assets/intro.png' alt="CRAFT teaser" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/craft.png' alt="CRAFT teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **CRAFT: Counterfactual-to-Interactive Reinforcement Fine-Tuning for Driving Policies**
+
 
 
 **Keyu Chen**, Nanfei Ye, Yida Wang, Wenchao Sun, Danqi Zhao, Hao Cheng, Sifa Zheng
