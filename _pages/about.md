@@ -99,7 +99,7 @@ redirect_from:
 
 **arXiv 2026**
 
-[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](http://arxiv.org/abs/2605.04470)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/CRAFT/)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/CraftPolicy)
+[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](http://arxiv.org/abs/2605.04470)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/CRAFT/)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/CraftPolicy) [![Stars](https://img.shields.io/github/stars/CurryChen77/CraftPolicy?style=social)](https://github.com/CurryChen77/CraftPolicy/stargazers)
 
 *CRAFT improves driving policies by combining dense counterfactual proxy supervision with residual correction from true closed-loop interaction.*
 
@@ -114,7 +114,7 @@ redirect_from:
 
 **ICRA 2026**
 
-[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2602.01916)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/ForSim/) [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/ForSim)
+[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2602.01916)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/ForSim/) [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/ForSim) [![Stars](https://img.shields.io/github/stars/CurryChen77/ForSim?style=social)](https://github.com/CurryChen77/ForSim/stargazers)
 
 *ForSim achieves high-fidelity traffic simulation by combining stepwise closed-loop trajectory propagation with physical dynamics for multimodal diversity and interaction-aware agent updates for realistic behavioral consistency.*
 
