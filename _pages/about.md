@@ -3,7 +3,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -99,7 +99,7 @@ redirect_from:
 
 **arXiv 2026**
 
-[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](http://arxiv.org/abs/2605.04470)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/CRAFT/)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/CraftPolicy) [![Stars](https://img.shields.io/github/stars/CurryChen77/CraftPolicy?style=social)](https://github.com/CurryChen77/CraftPolicy/stargazers)
+[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white&style=flat-square)](http://arxiv.org/abs/2605.04470)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/CRAFT/)  [![Custom badge](https://img.shields.io/badge/GitHub-Code-b31b1b?logo=github&logoColor=white&style=flat-square)](https://github.com/CurryChen77/CraftPolicy) [![Stars](https://img.shields.io/github/stars/CurryChen77/CraftPolicy?style=social&label=Stars)](https://github.com/CurryChen77/CraftPolicy/stargazers)
 
 *CRAFT improves driving policies by combining dense counterfactual proxy supervision with residual correction from true closed-loop interaction.*
 
@@ -114,7 +114,7 @@ redirect_from:
 
 **ICRA 2026**
 
-[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2602.01916)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/ForSim/) [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/ForSim) [![Stars](https://img.shields.io/github/stars/CurryChen77/ForSim?style=social)](https://github.com/CurryChen77/ForSim/stargazers)
+[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white&style=flat-square)](https://arxiv.org/abs/2602.01916)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/ForSim/) [![Custom badge](https://img.shields.io/badge/GitHub-Code-b31b1b?logo=github&logoColor=white&style=flat-square)](https://github.com/CurryChen77/ForSim) [![Stars](https://img.shields.io/github/stars/CurryChen77/ForSim?style=social&label=Stars)](https://github.com/CurryChen77/ForSim/stargazers)
 
 *ForSim achieves high-fidelity traffic simulation by combining stepwise closed-loop trajectory propagation with physical dynamics for multimodal diversity and interaction-aware agent updates for realistic behavioral consistency.*
 
@@ -129,7 +129,7 @@ redirect_from:
 
 **arXiv 2025**
 
-[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2505.03344)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/RIFT/)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/RIFT)  [![Stars](https://img.shields.io/github/stars/CurryChen77/RIFT?style=social)](https://github.com/CurryChen77/RIFT/stargazers)
+[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white&style=flat-square)](https://arxiv.org/abs/2505.03344)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/RIFT/)  [![Custom badge](https://img.shields.io/badge/GitHub-Code-b31b1b?logo=github&logoColor=white&style=flat-square)](https://github.com/CurryChen77/RIFT)  [![Stars](https://img.shields.io/github/stars/CurryChen77/RIFT?style=social&label=Stars)](https://github.com/CurryChen77/RIFT/stargazers)
 
 *RIFT achieve realistic and controllable traffic simulation by combining IL pre-training in a data-driven simulator for realism with RL fine-tuning in a physics-based simulator for controllability.*
 
@@ -144,7 +144,7 @@ redirect_from:
 
 Conference on Robot Learning **(CoRL <span style="color:#b31b1b">Oral 4.3%</span>), 2024**
 
-[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2406.02983)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/FREA/)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/FREA)  [![Stars](https://img.shields.io/github/stars/CurryChen77/FREA?style=social)](https://github.com/CurryChen77/FREA/stargazers)
+[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white&style=flat-square)](https://arxiv.org/abs/2406.02983)  [![Custom badge](https://img.shields.io/badge/Project-Page-b31b1b?logo=document)](https://currychen77.github.io/FREA/)  [![Custom badge](https://img.shields.io/badge/GitHub-Code-b31b1b?logo=github&logoColor=white&style=flat-square)](https://github.com/CurryChen77/FREA)  [![Stars](https://img.shields.io/github/stars/CurryChen77/FREA?style=social&label=Stars)](https://github.com/CurryChen77/FREA/stargazers)
 
 *FREA incorporates feasibility as guidance to generate adversarial yet AV-feasible, safety-critical scenarios for autonomous driving.*
 
@@ -159,7 +159,7 @@ Conference on Robot Learning **(CoRL <span style="color:#b31b1b">Oral 4.3%</span
 
 Knowledge-Based Systems **(KBS) (SCI Q1, IF=7.4), 2023**
 
-[![Custom badge](https://img.shields.io/badge/Elsevier-Paper-b31b1b?logo=Elsevier&logoColor=white?style=flat-square)](https://www.sciencedirect.com/science/article/pii/S0950705123001739?casa_token=uB0IUPawdkcAAAAA:xiqZf6isfEmqjSoG86H1J5PPAFZw0YT4QG8giHL0ADJNsXcyYcnzYd3ceq9tnZNWkTccpOXECDw) 
+[![Custom badge](https://img.shields.io/badge/Elsevier-Paper-b31b1b?logo=Elsevier&logoColor=white&style=flat-square)](https://www.sciencedirect.com/science/article/pii/S0950705123001739?casa_token=uB0IUPawdkcAAAAA:xiqZf6isfEmqjSoG86H1J5PPAFZw0YT4QG8giHL0ADJNsXcyYcnzYd3ceq9tnZNWkTccpOXECDw)
 
 *IGT uses illumination intensity to guide the fusion process of multi-modality features, enabling the comprehensive utilization of cross-modality complementary information in object detection.*
 
@@ -177,7 +177,7 @@ Wenchao Sun, Xuewu Lin, **Keyu Chen**, Zixiang Pei, Xiang Li, Yining Shi, Sifa Z
 
 **arXiv 2026**
 
-[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2603.29163)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/swc-17/SparseDriveV2)  [![Stars](https://img.shields.io/github/stars/swc-17/SparseDriveV2?style=social)](https://github.com/swc-17/SparseDriveV2/stargazers)
+[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white&style=flat-square)](https://arxiv.org/abs/2603.29163)  [![Custom badge](https://img.shields.io/badge/GitHub-Code-b31b1b?logo=github&logoColor=white&style=flat-square)](https://github.com/swc-17/SparseDriveV2)  [![Stars](https://img.shields.io/github/stars/swc-17/SparseDriveV2?style=social&label=Stars)](https://github.com/swc-17/SparseDriveV2/stargazers)
 
 *SparseDriveV2 pushes scoring-based autonomous driving forward with a scalable factorized trajectory vocabulary and coarse-to-fine scoring for dense yet efficient planning.*
 
@@ -192,7 +192,7 @@ Wenchao Sun, Xuewu Lin, **Keyu Chen**, Zixiang Pei, Yining Shi, Chuang Zhang, Si
 
 **arXiv 2025**
 
-[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2505.19692)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/swc-17/DriveCamSim)  [![Stars](https://img.shields.io/github/stars/swc-17/DriveCamSim?style=social)](https://github.com/swc-17/DriveCamSim/stargazers)
+[![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white&style=flat-square)](https://arxiv.org/abs/2505.19692)  [![Custom badge](https://img.shields.io/badge/GitHub-Code-b31b1b?logo=github&logoColor=white&style=flat-square)](https://github.com/swc-17/DriveCamSim)  [![Stars](https://img.shields.io/github/stars/swc-17/DriveCamSim?style=social&label=Stars)](https://github.com/swc-17/DriveCamSim/stargazers)
 
 *DriveCamSim introduces explicit camera modeling to generate controllable multi-view, multi-frame driving imagery that generalizes across camera parameters and frame rates.*
 
@@ -207,7 +207,7 @@ Hao Cheng, Yanbo Jiang, Hailun Zhang, **Keyu Chen**, Heye Huang, Shaobing Xu, Ji
 
 Transportation Research Part C: Emerging Technologies **(TRC), 2025**
 
-[![Custom badge](https://img.shields.io/badge/Elsevier-Paper-b31b1b?logo=Elsevier&logoColor=white?style=flat-square)](https://www.sciencedirect.com/science/article/pii/S0968090X24005023)  [![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/AutoChengh/EmergencyIndex)  [![Stars](https://img.shields.io/github/stars/AutoChengh/EmergencyIndex?style=social)](https://github.com/AutoChengh/EmergencyIndex/stargazers)
+[![Custom badge](https://img.shields.io/badge/Elsevier-Paper-b31b1b?logo=Elsevier&logoColor=white&style=flat-square)](https://www.sciencedirect.com/science/article/pii/S0968090X24005023)  [![Custom badge](https://img.shields.io/badge/GitHub-Code-b31b1b?logo=github&logoColor=white&style=flat-square)](https://github.com/AutoChengh/EmergencyIndex)  [![Stars](https://img.shields.io/github/stars/AutoChengh/EmergencyIndex?style=social&label=Stars)](https://github.com/AutoChengh/EmergencyIndex/stargazers)
 
 *EI provides a two-dimensional surrogate safety measure that models interaction depth and evasive urgency for more faithful traffic conflict assessment.*
 
@@ -219,7 +219,7 @@ Transportation Research Part C: Emerging Technologies **(TRC), 2025**
 <div class='paper-box-text' markdown="1">
 **Highway-Adversarial**
 
-[![Custom badge](https://img.shields.io/badge/Github-Code-b31b1b?logo=github&logocolor=white?style=flat-square)](https://github.com/CurryChen77/Highway-env-adversarial)  [![Stars](https://img.shields.io/github/stars/CurryChen77/Highway-env-adversarial?style=social)](https://github.com/CurryChen77/Highway-env-adversarial/stargazers)
+[![Custom badge](https://img.shields.io/badge/GitHub-Code-b31b1b?logo=github&logoColor=white&style=flat-square)](https://github.com/CurryChen77/Highway-env-adversarial)  [![Stars](https://img.shields.io/github/stars/CurryChen77/Highway-env-adversarial?style=social&label=Stars)](https://github.com/CurryChen77/Highway-env-adversarial/stargazers)
 
 *We manipulate critical background vehicles in the Highway-Env to exhibit adversarial behaviors that challenge the ego vehicle, creating safety-critical scenarios.*
 
