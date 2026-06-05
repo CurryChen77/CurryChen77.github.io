@@ -122,8 +122,13 @@
     border-radius: 50%;
 
     @include breakpoint($large) {
+      max-width: 145px;
       padding: 5px;
       border: 1px solid $border-color;
+    }
+
+    @include breakpoint($x-large) {
+      max-width: 175px;
     }
   }
 }
@@ -155,6 +160,13 @@
 
 .sidebar .author__name {
   @include breakpoint($medium) {
+    font-size: $type-size-3;
+  }
+  @include breakpoint($large) {
+    font-size: $type-size-4;
+    line-height: 1.2;
+  }
+  @include breakpoint($x-large) {
     font-size: $type-size-3;
   }
   font-family: $sans-serif;
@@ -267,6 +279,10 @@
 
   li {
     white-space: nowrap;
+
+    @include breakpoint($large) {
+      white-space: normal;
+    }
   }
 
   a {
@@ -279,6 +295,8 @@
     border-radius: 6px;
     transition: all 0.2s ease;
     position: relative;
+    overflow-wrap: anywhere;
+    word-break: normal;
     
     i {
       margin-right: 8px;
@@ -387,6 +405,35 @@
         i { color: #ff0000 !important; }
       }
     }
+
+    @include breakpoint($large) {
+      padding: 5px 6px;
+      font-size: 0.92em;
+      line-height: 1.35;
+
+      i {
+        margin-right: 5px;
+        width: 16px;
+      }
+
+      &:hover {
+        padding-left: 9px;
+      }
+    }
+
+    @include breakpoint($x-large) {
+      padding: 6px 12px;
+      font-size: $type-size-5;
+
+      i {
+        margin-right: 8px;
+        width: 20px;
+      }
+
+      &:hover {
+        padding-left: 16px;
+      }
+    }
   }
   
   // 为location和employer添加与链接完全相同的样式，但不可点击
@@ -402,6 +449,8 @@
     transition: all 0.2s ease;
     position: relative;
     cursor: default; // 不显示手指指针
+    overflow-wrap: anywhere;
+    word-break: normal;
     
     i {
       margin-right: 8px;
@@ -412,6 +461,27 @@
     }
     
     // 不添加悬停效果，保持静态
+
+    @include breakpoint($large) {
+      padding: 5px 6px;
+      font-size: 0.92em;
+      line-height: 1.35;
+
+      i {
+        margin-right: 5px;
+        width: 16px;
+      }
+    }
+
+    @include breakpoint($x-large) {
+      padding: 6px 12px;
+      font-size: $type-size-5;
+
+      i {
+        margin-right: 8px;
+        width: 20px;
+      }
+    }
   }
 }
 
