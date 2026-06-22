@@ -175,7 +175,7 @@ Knowledge-Based Systems **(KBS) (SCI Q1, IF=7.4), 2023**
 
 Wenchao Sun, Xuewu Lin, **Keyu Chen**, Zixiang Pei, Xiang Li, Yining Shi, Sifa Zheng
 
-**arXiv 2026**
+**ECCV 2026**
 
 [![Custom badge](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white&style=flat-square)](https://arxiv.org/abs/2603.29163)  [![Custom badge](https://img.shields.io/badge/GitHub-Code-b31b1b?logo=github&logoColor=white&style=flat-square)](https://github.com/swc-17/SparseDriveV2)  [![Stars](https://img.shields.io/github/stars/swc-17/SparseDriveV2?style=social&label=Stars)](https://github.com/swc-17/SparseDriveV2/stargazers)
 
