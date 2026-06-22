@@ -169,7 +169,7 @@ Knowledge-Based Systems **(KBS) (SCI Q1, IF=7.4), 2023**
 ## 📚 All Publications
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/SparseDriveV2.png' alt="SparseDriveV2 teaser" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='images/SparseDriveV2.png' alt="SparseDriveV2 teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **SparseDriveV2: Scoring is All You Need for End-to-End Autonomous Driving**
 
