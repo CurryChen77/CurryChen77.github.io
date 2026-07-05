@@ -220,7 +220,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (5.14.4)
+    minitest (5.27.0)
     multipart-post (2.1.1)
     nokogiri (1.13.3-arm64-darwin)
       racc (~> 1.4)
@@ -266,9 +266,11 @@ GEM
       unf_ext
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
+    webrick (1.9.2)
     zeitwerk (2.4.2)
 
 PLATFORMS
+  arm64-darwin-25
   universal-darwin-19
   x86_64-linux
 
@@ -277,6 +279,7 @@ DEPENDENCIES
   hawkins
   jekyll-feed
   jekyll-sitemap
+  webrick (~> 1.9)
 
 BUNDLED WITH
-   2.2.19
+   2.5.11
