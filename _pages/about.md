@@ -309,14 +309,13 @@ redirect_from:
       <h2 id="experience-heading">Internships</h2>
     </div>
   </header>
-
   <div class="timeline-list">
     <article class="timeline-item">
       <time>2025.11 — Present</time>
       <img src="/images/liauto.ico" alt="Li Auto logo" loading="lazy" width="50" height="50">
       <div>
         <h3><a href="https://www.lixiang.com/" target="_blank" rel="noopener">Li Auto</a></h3>
-        <p>Closed-loop reinforcement-learning fine-tuning for autonomous driving</p>
+        <p>Closed-loop RL post-training for autonomous driving</p>
         <span>Beijing, China</span>
       </div>
     </article>
@@ -324,16 +323,17 @@ redirect_from:
       <time>2023.07 — 2023.08</time>
       <img src="/images/tsari.ico" alt="Tsinghua Automotive Strategy Research Institute logo" loading="lazy" width="50" height="50">
       <div>
-        <h3><a href="https://www.tsari.tsinghua.edu.cn/" target="_blank" rel="noopener">Tsinghua Automotive Strategy Research Institute</a></h3>
+        <h3><a href="https://www.tsari.tsinghua.edu.cn/" target="_blank" rel="noopener">Tsinghua Automotive Research Institute (Suzhou)</a></h3>
         <p>Safety-critical scenario generation for autonomous driving</p>
         <span>Suzhou, China</span>
       </div>
     </article>
   </div>
+
 </section>
 
 <span id="-honors-and-awards" class="legacy-anchor" aria-hidden="true"></span>
-<section class="editorial-section" id="awards" aria-labelledby="awards-heading">
+<section class="editorial-section editorial-section--final" id="awards" aria-labelledby="awards-heading">
   <header class="section-heading">
     <span class="section-number">06</span>
     <div>
@@ -364,21 +364,5 @@ redirect_from:
         <p>Nanjing University of Aeronautics and Astronautics</p>
       </div>
     </article>
-  </div>
-</section>
-
-<section class="editorial-section editorial-section--visitor" id="visitor-map" aria-labelledby="visitor-heading">
-  <header class="section-heading">
-    <span class="section-number">07</span>
-    <div>
-      <p class="section-kicker">Around the world</p>
-      <h2 id="visitor-heading">Visitor Map</h2>
-    </div>
-  </header>
-  <div class="visitor-map">
-    <script type="text/javascript" id="clustrmaps" src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&amp;w=300&amp;t=n&amp;d=G22ZMDy2KEs5OGq6rS0JucNzUxHn13B0tIPWaEGNGJo"></script>
-    <noscript>
-      <img src="https://clustrmaps.com/map_v2.png?cl=ffffff&amp;w=300&amp;t=n&amp;d=G22ZMDy2KEs5OGq6rS0JucNzUxHn13B0tIPWaEGNGJo" alt="Visitor locations around the world" width="300">
-    </noscript>
   </div>
 </section>
