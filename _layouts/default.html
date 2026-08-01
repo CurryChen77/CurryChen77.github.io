@@ -9,12 +9,12 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <div id="main" role="main">
+    <main id="main">
       {% include sidebar.html %}
     
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
@@ -25,7 +25,7 @@ layout: compress
           </section>
         </div>
       </article>
-    </div>
+    </main>
 
     {% include scripts.html %}
 

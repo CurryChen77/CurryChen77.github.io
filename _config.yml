@@ -6,8 +6,10 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Keyu Chen - Homepage"
-description              : "Ph.D. Candidate at School of Vehicle and Mobility Tsinghua University. "
+title                    : "Keyu Chen"
+description              : "Ph.D. candidate at Tsinghua University researching traffic simulation and RL post-training for autonomous driving."
+url                      : "https://currychen77.github.io"
+og_image                 : "/images/og-keyu-chen.png"
 repository               : "CurryChen77/CurryChen77.github.io"
 google_scholar_stats_use_cdn : true
 
