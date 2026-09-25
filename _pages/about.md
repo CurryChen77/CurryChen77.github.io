@@ -90,6 +90,10 @@ redirect_from:
 
   <div class="news-list">
     <article class="news-item">
+      <time datetime="2026-09">Sep 2026</time>
+      <p><strong>CRAFT</strong> was accepted to <em>NeurIPS 2026</em>.</p>
+    </article>
+    <article class="news-item">
       <time datetime="2026-05">May 2026</time>
       <p>Released <strong>CRAFT</strong>. The <a href="https://currychen77.github.io/CRAFT/" target="_blank" rel="noopener">project page</a> is now live.</p>
     </article>
@@ -136,7 +140,7 @@ redirect_from:
       <div class="publication__content">
         <h3>CRAFT: Counterfactual-to-Interactive Reinforcement Fine-Tuning for Driving Policies</h3>
         <p class="publication__authors"><strong>Keyu Chen</strong>, Nanfei Ye, Yida Wang, Wenchao Sun, Danqi Zhao, Hao Cheng, Sifa Zheng</p>
-        <p class="publication__meta">arXiv, 2026</p>
+        <p class="publication__meta"><strong class="publication__venue-abbr">NeurIPS</strong>, 2026</p>
         <p class="publication__summary">CRAFT improves driving policies by combining dense counterfactual proxy supervision with residual correction from true closed-loop interaction.</p>
         <div class="publication__links" aria-label="CRAFT links">
           <a href="http://arxiv.org/abs/2605.04470" target="_blank" rel="noopener">Paper</a>
@@ -154,7 +158,7 @@ redirect_from:
       <div class="publication__content">
         <h3>ForSim: Stepwise Forward Simulation for Traffic Policy Fine-Tuning</h3>
         <p class="publication__authors"><strong>Keyu Chen</strong>, Wenchao Sun, Hao Cheng, Zheng Fu, Sifa Zheng</p>
-        <p class="publication__meta">IEEE International Conference on Robotics and Automation (ICRA), 2026</p>
+        <p class="publication__meta"><strong class="publication__venue-abbr">ICRA</strong>, 2026</p>
         <p class="publication__summary">ForSim achieves high-fidelity traffic simulation through stepwise closed-loop trajectory propagation, combining physical dynamics for multimodal diversity with interaction-aware agent updates for realistic behavioral consistency.</p>
         <div class="publication__links" aria-label="ForSim links">
           <a href="https://arxiv.org/abs/2602.01916" target="_blank" rel="noopener">Paper</a>
@@ -172,7 +176,7 @@ redirect_from:
       <div class="publication__content">
         <h3>RIFT: Group-Relative RL Fine-Tuning for Realistic and Controllable Traffic Simulation</h3>
         <p class="publication__authors"><strong>Keyu Chen</strong>, Wenchao Sun, Hao Cheng, Sifa Zheng</p>
-        <p class="publication__meta">arXiv, 2025</p>
+        <p class="publication__meta"><span class="publication__venue-name">arXiv</span>, 2025</p>
         <p class="publication__summary">RIFT achieves realistic and controllable traffic simulation by combining imitation-learning pre-training in a data-driven simulator with reinforcement-learning fine-tuning in a physics-based simulator.</p>
         <div class="publication__links" aria-label="RIFT links">
           <a href="https://arxiv.org/abs/2505.03344" target="_blank" rel="noopener">Paper</a>
@@ -190,7 +194,7 @@ redirect_from:
       <div class="publication__content">
         <h3>FREA: Feasibility-Guided Generation of Safety-Critical Scenarios with Reasonable Adversariality</h3>
         <p class="publication__authors"><strong>Keyu Chen</strong>, Yuheng Lei, Hao Cheng, Haoran Wu, Wenchao Sun, Sifa Zheng</p>
-        <p class="publication__meta">Conference on Robot Learning (CoRL), 2024 · <span class="accent-text">Oral presentation (4.3%)</span></p>
+        <p class="publication__meta"><strong class="publication__venue-abbr">CoRL</strong>, 2024 · <span class="accent-text">Oral presentation (4.3%)</span></p>
         <p class="publication__summary">FREA incorporates feasibility as guidance to generate adversarial yet AV-feasible, safety-critical scenarios for autonomous driving.</p>
         <div class="publication__links" aria-label="FREA links">
           <a href="https://arxiv.org/abs/2406.02983" target="_blank" rel="noopener">Paper</a>
@@ -208,7 +212,7 @@ redirect_from:
       <div class="publication__content">
         <h3>IGT: Illumination-Guided RGB-T Object Detection with Transformers</h3>
         <p class="publication__authors"><strong>Keyu Chen</strong>, Jinqiang Liu, Han Zhang</p>
-        <p class="publication__meta">Knowledge-Based Systems (KBS), 2023 · SCI Q1, IF 7.4</p>
+        <p class="publication__meta"><span class="publication__venue-name">Knowledge-Based Systems</span> (<strong class="publication__venue-abbr">KBS</strong>), 2023 · SCI Q1, IF 7.4</p>
         <p class="publication__summary">IGT uses illumination intensity to guide multimodal feature fusion, enabling the comprehensive use of complementary cross-modal information in object detection.</p>
         <div class="publication__links" aria-label="IGT links">
           <a href="https://www.sciencedirect.com/science/article/pii/S0950705123001739?casa_token=uB0IUPawdkcAAAAA:xiqZf6isfEmqjSoG86H1J5PPAFZw0YT4QG8giHL0ADJNsXcyYcnzYd3ceq9tnZNWkTccpOXECDw" target="_blank" rel="noopener">Paper</a>
@@ -230,7 +234,7 @@ redirect_from:
       <div class="publication__content">
         <h3>SparseDriveV2: Scoring is All You Need for End-to-End Autonomous Driving</h3>
         <p class="publication__authors">Wenchao Sun, Xuewu Lin, <strong>Keyu Chen</strong>, Zixiang Pei, Xiang Li, Yining Shi, Sifa Zheng</p>
-        <p class="publication__meta">European Conference on Computer Vision (ECCV), 2026</p>
+        <p class="publication__meta"><strong class="publication__venue-abbr">ECCV</strong>, 2026</p>
         <p class="publication__summary">SparseDriveV2 advances scoring-based autonomous driving with a scalable factorized trajectory vocabulary and coarse-to-fine scoring for dense yet efficient planning.</p>
         <div class="publication__links" aria-label="SparseDriveV2 links">
           <a href="https://arxiv.org/abs/2603.29163" target="_blank" rel="noopener">Paper</a>
@@ -247,7 +251,7 @@ redirect_from:
       <div class="publication__content">
         <h3>DriveCamSim: Generalizable Camera Simulation via Explicit Camera Modeling for Autonomous Driving</h3>
         <p class="publication__authors">Wenchao Sun, Xuewu Lin, <strong>Keyu Chen</strong>, Zixiang Pei, Yining Shi, Chuang Zhang, Sifa Zheng</p>
-        <p class="publication__meta">arXiv, 2025</p>
+        <p class="publication__meta"><span class="publication__venue-name">IEEE Robotics and Automation Letters</span> (<strong class="publication__venue-abbr">RA-L</strong>), 2026</p>
         <p class="publication__summary">DriveCamSim introduces explicit camera modeling to generate controllable multi-view, multi-frame driving imagery that generalizes across camera parameters and frame rates.</p>
         <div class="publication__links" aria-label="DriveCamSim links">
           <a href="https://arxiv.org/abs/2505.19692" target="_blank" rel="noopener">Paper</a>
@@ -264,7 +268,7 @@ redirect_from:
       <div class="publication__content">
         <h3>Emergency Index (EI): A Two-Dimensional Surrogate Safety Measure Considering Vehicles’ Interaction Depth</h3>
         <p class="publication__authors">Hao Cheng, Yanbo Jiang, Hailun Zhang, <strong>Keyu Chen</strong>, Heye Huang, Shaobing Xu, Jianqiang Wang, Sifa Zheng</p>
-        <p class="publication__meta">Transportation Research Part C: Emerging Technologies (TRC), 2025</p>
+        <p class="publication__meta"><span class="publication__venue-name">Transportation Research Part C: Emerging Technologies</span> (<strong class="publication__venue-abbr">TRC</strong>), 2025</p>
         <p class="publication__summary">EI provides a two-dimensional surrogate safety measure that models interaction depth and evasive urgency for more faithful traffic-conflict assessment.</p>
         <div class="publication__links" aria-label="Emergency Index links">
           <a href="https://www.sciencedirect.com/science/article/pii/S0968090X24005023" target="_blank" rel="noopener">Paper</a>

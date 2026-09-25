@@ -190,7 +190,7 @@ video {
 }
 
 .subtitle {
-  max-width: 880px;
+  max-width: 1160px;
   margin: 18px auto 0;
   text-align: center;
   color: #444842;
@@ -198,6 +198,39 @@ video {
   font-size: clamp(21px, 2.45vw, 31px);
   font-weight: 420;
   line-height: 1.26;
+}
+
+.acceptance-badge {
+  width: fit-content;
+  margin: 13px auto 0;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 9px 19px;
+  border: 1px solid rgba(23, 123, 120, 0.24);
+  border-radius: 999px;
+  background: rgba(255, 253, 250, 0.82);
+  color: #252821;
+  font-size: 17px;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+}
+
+.acceptance-badge::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  flex: 0 0 7px;
+  border-radius: 50%;
+  background: var(--teal);
+  box-shadow: 0 0 0 3px rgba(23, 123, 120, 0.09);
+}
+
+.acceptance-badge strong {
+  color: #252821;
+  font-size: 17px;
+  font-weight: 680;
+  letter-spacing: 0.01em;
 }
 
 .meta {
