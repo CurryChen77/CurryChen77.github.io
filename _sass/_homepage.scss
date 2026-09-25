@@ -704,21 +704,6 @@ html {
     flex: 1 1 0;
   }
 
-  .editorial-section--overview .timeline-list--compact > .timeline-item {
-    flex: 0 0 auto;
-  }
-
-  .editorial-section--overview .timeline-list--compact > .timeline-item:last-child {
-    border-bottom: 0;
-  }
-
-  .editorial-section--overview .timeline-list--compact::after {
-    content: "";
-    flex: 1 1 auto;
-    min-height: 0;
-    border-bottom: 1px solid $border-color;
-  }
-
   .editorial-section--overview .news-item {
     grid-template-columns: 5.1rem minmax(0, 1fr);
   }
