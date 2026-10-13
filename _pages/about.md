@@ -25,16 +25,16 @@ redirect_from:
 
     <div class="profile-hero__bio">
       <p>I am a third-year Ph.D. student in the School of Vehicle and Mobility at Tsinghua University, advised by <a href="http://www.svm.tsinghua.edu.cn/essay/80/1835.html" target="_blank" rel="noopener">Prof. Sifa Zheng</a>.</p>
-      <p>My research focuses on <strong>traffic simulation and RL post-training for autonomous driving</strong>, with an emphasis on realistic, interactive, and controllable traffic scenarios. I develop reliable closed-loop simulation frameworks to support the safe, robust, and scalable advancement of autonomous driving systems.</p>
+      <p>My research focuses on <strong>reinforcement learning (RL) post-training for autonomous driving</strong>, with broader interests in <strong>Physical AI</strong>. I am particularly interested in how RL and closed-loop interaction can improve the adaptability, robustness, and generalization of intelligent agents in complex physical environments.</p>
     </div>
-
+    
     <nav class="profile-links" aria-label="Academic profiles and contact">
       <a class="profile-link profile-link--primary" href="/{{ site.author.cv }}" target="_blank" rel="noopener">CV</a>
       <a class="profile-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a>
       <a class="profile-link" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>
       <a class="profile-link" href="mailto:{{ site.author.email }}">Email</a>
     </nav>
-
+    
     <div class="profile-secondary-links">
       <span>{{ site.author.location }}</span>
       <a href="/{{ site.author.cv_cn }}" target="_blank" rel="noopener">中文简历</a>
@@ -168,7 +168,7 @@ redirect_from:
         </div>
       </div>
     </article>
-
+    
     <article class="publication">
       <figure class="publication__visual">
         <img src="/images/RIFT.gif" alt="RIFT realistic and controllable traffic simulation" loading="lazy">
@@ -186,7 +186,7 @@ redirect_from:
         </div>
       </div>
     </article>
-
+    
     <article class="publication">
       <figure class="publication__visual">
         <img src="/images/FREA.gif" alt="FREA feasibility-guided safety-critical scenario generation" loading="lazy">
@@ -204,7 +204,7 @@ redirect_from:
         </div>
       </div>
     </article>
-
+    
     <article class="publication">
       <figure class="publication__visual">
         <img src="/images/IGT.gif" alt="IGT illumination-guided RGB-T object detection" loading="lazy">
@@ -260,7 +260,7 @@ redirect_from:
         </div>
       </div>
     </article>
-
+    
     <article class="publication">
       <figure class="publication__visual">
         <img src="/images/EI.png" alt="Emergency Index traffic conflict assessment" loading="lazy">
