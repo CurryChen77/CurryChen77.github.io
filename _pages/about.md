@@ -315,7 +315,7 @@ redirect_from:
   </header>
   <div class="timeline-list">
     <article class="timeline-item">
-      <time>2025.11 — Present</time>
+      <time>2025.11 — 2026.10</time>
       <img src="/images/liauto.ico" alt="Li Auto logo" loading="lazy" width="50" height="50">
       <div>
         <h3><a href="https://www.lixiang.com/" target="_blank" rel="noopener">Li Auto</a></h3>
