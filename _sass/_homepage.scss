@@ -298,7 +298,22 @@ html {
 }
 
 .news-list {
+  height: 18rem;
+  overflow-y: auto;
   border-top: 2px solid #152a43;
+  border-bottom: 1px solid $border-color;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: #b8b2a8 transparent;
+
+  &:focus-visible {
+    outline: 2px solid $primary-color;
+    outline-offset: 4px;
+  }
+
+  .news-item:last-child {
+    border-bottom: 0;
+  }
 }
 
 .news-item {
@@ -528,6 +543,52 @@ html {
   }
 }
 
+.internship-directions {
+  margin: 0.95rem 0 0.8rem;
+  padding-left: 1.15rem;
+  border-left: 1px solid $border-color;
+
+  .internship-direction {
+    position: relative;
+
+    + .internship-direction {
+      margin-top: 1.05rem;
+    }
+
+    &::before {
+      position: absolute;
+      top: 0.3rem;
+      left: calc(-1.15rem - 4px);
+      width: 7px;
+      height: 7px;
+      border: 2px solid $background-color;
+      border-radius: 50%;
+      background: $primary-color;
+      box-shadow: 0 0 0 1px rgba(165, 28, 48, 0.25);
+      content: "";
+    }
+  }
+
+  h4 {
+    margin: 0 0 0.25rem;
+    color: #77766f;
+    font-family: $sans-serif;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin: 0;
+    color: #344456;
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+}
+
 .timeline-list--compact .timeline-item {
   grid-template-columns: 2.35rem minmax(0, 1fr);
   gap: 0.15rem 0.75rem;
@@ -699,12 +760,22 @@ html {
     flex-direction: column;
   }
 
-  .editorial-section--overview .timeline-item,
-  .editorial-section--overview .news-item {
+  .editorial-section--overview .timeline-list {
+    min-height: 18rem;
+  }
+
+  .editorial-section--overview .news-list {
+    // Let Education set the row height, regardless of the number of news items.
+    height: 0;
+    min-height: 0;
+  }
+
+  .editorial-section--overview .timeline-item {
     flex: 1 1 0;
   }
 
   .editorial-section--overview .news-item {
+    flex: 0 0 auto;
     grid-template-columns: 5.1rem minmax(0, 1fr);
   }
 

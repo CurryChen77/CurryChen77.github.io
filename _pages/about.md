@@ -88,7 +88,7 @@ redirect_from:
     </div>
   </header>
 
-  <div class="news-list">
+  <div class="news-list" role="region" aria-labelledby="news-heading" tabindex="0">
     <article class="news-item">
       <time datetime="2026-09">Sep 2026</time>
       <p><strong>CRAFT</strong> was accepted to <em>NeurIPS 2026</em>.</p>
@@ -318,8 +318,17 @@ redirect_from:
       <time>2025.11 — 2026.10</time>
       <img src="/images/liauto.ico" alt="Li Auto logo" loading="lazy" width="50" height="50">
       <div>
-        <h3><a href="https://www.lixiang.com/" target="_blank" rel="noopener">Li Auto</a></h3>
-        <p>Closed-loop RL post-training for autonomous driving</p>
+        <h3><a href="https://www.lixiang.com/" target="_blank" rel="noopener">Li Auto Foundation Models</a></h3>
+        <div class="internship-directions">
+          <div class="internship-direction">
+            <h4>Autonomous Driving</h4>
+            <p>Closed-loop RL post-training</p>
+          </div>
+          <div class="internship-direction">
+            <h4>Embodied Mobile Manipulation</h4>
+            <p>Action-Conditioned Latent Dynamics for Policy Learning</p>
+          </div>
+        </div>
         <span>Beijing, China</span>
       </div>
     </article>
