@@ -94,6 +94,10 @@ redirect_from:
       <p><strong>CRAFT</strong> was accepted to <em>NeurIPS 2026</em>.</p>
     </article>
     <article class="news-item">
+      <time datetime="2026-06">Jun 2026</time>
+      <p><strong>SparseDriveV2</strong> was accepted to <em>ECCV 2026</em>.</p>
+    </article>
+    <article class="news-item">
       <time datetime="2026-05">May 2026</time>
       <p>Released <strong>CRAFT</strong>. The <a href="https://currychen77.github.io/CRAFT/" target="_blank" rel="noopener">project page</a> is now live.</p>
     </article>
